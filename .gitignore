@@ -1,0 +1,36 @@
+# Binaries and build artifacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts and coverage
+*.test
+*.out
+coverage.html
+profile.pprof
+
+# Temporary and swap files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project scratch directories (temporary debug/agent files)
+/scratch/

@@ -1,0 +1,29 @@
+# Set default behavior to normalize line endings
+* text=auto eol=lf
+
+# Go source files
+*.go text eol=lf diff=golang
+
+# Data & documentation formats
+*.json text eol=lf
+*.md text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Shell and script files
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets and images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
