@@ -10,24 +10,34 @@ Pepperfry supplies the foundational furniture layer for the room:
 
 | Category Slug | Normalized Name | Spatial Role |
 |---|---|---|
-| `furniture-sofas` | `sofas` | Primary living room seating anchor |
-| `furniture-coffee-tables` | `coffee_tables` | Central living room surface & accent |
-| `furniture-dining-chairs` | `dining_chairs` | Dining seating and accent chairs |
+| `category/3-seater-sofas` | `sofas` | Primary living room seating anchor |
+| `category/coffee-tables` | `coffee_tables` | Central living room surface & accent |
+| `category/dining-chairs` | `dining_chairs` | Dining seating and accent chairs |
 
 ---
 
 ## 2. Implementation Details (`internal/site/pepperfry`)
 
 ### Discovery (`ListProducts`)
-- Queries category URL: `/category/{slug}.html`
+- Queries active leaf category URLs: `https://www.pepperfry.com/{slug}.html` (e.g. `category/3-seater-sofas.html`).
 - Uses `goquery` to parse product card anchors (`a.product-link`, `.product-card a`, `a[href*="/product/"]`).
 - Emits deduplicated, absolute-resolved [`product.ProductRef`](file:///C:/Programming/Projects/decor-scrapper/internal/product/product.go) items.
+- Sends full desktop browser request headers (`User-Agent`, `Sec-Ch-Ua`, `Accept`, `Accept-Language`) for WAF compatibility.
 
 ### Parsing & Normalization (`FetchProduct`)
 - Fetches and parses product detail pages with `goquery`.
 - **`ExternalID`**: Multi-tiered extraction strategy (Retailer item ID meta tag -> Container `data-product-id` attribute -> Regex fallback from URL path).
-- **`PriceMinor`**: Extracts leaf price text, strips currency symbols and commas, parsing into integer paise (`2499900` for ₹24,999) with float-rounding safety.
-- **`InStock`**: Detects out-of-stock badges and disabled notify buttons vs. active cart buttons.
+- **`PriceMinor`**: Multi-strategy price extraction:
+  1. *Schema.org JSON-LD*: Parses `<script type="application/ld+json">` for `Product` entity `offers.price`.
+  2. *Meta & Microdata*: Checks `meta[property='product:price:amount']`, `meta[itemprop='price']`, `meta[property='og:price:amount']`, and `meta[name='twitter:data1']`.
+  3. *DOM Selectors*: Matches `.v-product__price--current`, `.product-price`, `.v-product__price`, `.offer-price`, and `[data-price]`.
+  4. *Embedded Script JSON*: RegEx fallback across inline script tags for `"offer_price"`, `"selling_price"`, etc.
+  5. *Paise Conversion*: Converts numeric string into integer paise (`5049900` for ₹50,499.00) with float-rounding safety.
+- **`ImageURL`**: Multi-strategy image resolution:
+  1. *Schema.org JSON-LD*: Extracts `image` URL.
+  2. *DOM Gallery*: Matches `img[src*='/media/catalog/product/']`, `img.v-product-gallery__image`, `img.product-image`, or `[data-src]`.
+  3. *Logo Filtering*: Explicitly filters out default site logos (`w22-pf-logo.svg`) to guarantee real product photos.
+- **`InStock`**: Evaluates Schema.org JSON-LD `offers.availability` (`InStock` vs. `OutOfStock`) and DOM out-of-stock badges (`.v-product__out-of-stock-msg`, `.out-of-stock`, `.sold-out`).
 - **`Styles`**: Explicitly set to empty `[]string{}` per architectural decision in [decisions.md](file:///C:/Programming/Projects/decor-scrapper/decisions.md), preserving data integrity and leaving style classification to the downstream LLM layer.
 
 ---
@@ -40,3 +50,4 @@ Verified offline against static HTML golden fixtures in [`internal/site/pepperfr
 - `TestPepperfry_FetchProduct_CoffeeTable`: Checks teak coffee table attributes.
 - `TestPepperfry_FetchProduct_DiningChair_OutOfStock`: Checks sold-out status detection.
 - `TestPepperfry_Errors`: Verifies proper error bubbling on 500 status and 404 targets.
+

@@ -87,7 +87,9 @@ func (n *Nestasia) ListProducts(ctx context.Context, cat product.Category) ([]pr
 	if err != nil {
 		return nil, fmt.Errorf("creating request for category %q: %w", cat.Slug, err)
 	}
-	req.Header.Set("User-Agent", "DecorScraper/1.0")
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+	req.Header.Set("Accept", "application/json, text/plain, */*")
+	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 
 	resp, err := n.httpClient.Do(req)
 	if err != nil {
@@ -128,7 +130,9 @@ func (n *Nestasia) FetchProduct(ctx context.Context, ref product.ProductRef) (pr
 	if err != nil {
 		return product.Product{}, fmt.Errorf("creating product request for %q: %w", handle, err)
 	}
-	req.Header.Set("User-Agent", "DecorScraper/1.0")
+	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+	req.Header.Set("Accept", "application/json, text/plain, */*")
+	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
 
 	resp, err := n.httpClient.Do(req)
 	if err != nil {

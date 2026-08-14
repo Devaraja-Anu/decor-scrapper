@@ -21,6 +21,7 @@ Nestasia is configured for three high-impact categories that materially transfor
 ### Discovery (`ListProducts`)
 - Queries Shopify's collection API: `/collections/{slug}/products.json?limit=250`
 - Maps each item into a lightweight [`product.ProductRef`](file:///C:/Programming/Projects/decor-scrapper/internal/product/product.go) with canonical URL and normalized category name.
+- Sends standard browser headers (`User-Agent`, `Accept`, `Sec-Ch-Ua`) for WAF compatibility.
 
 ### Ingestion & Normalization (`FetchProduct`)
 - Fetches single item details via `/products/{handle}.json`.

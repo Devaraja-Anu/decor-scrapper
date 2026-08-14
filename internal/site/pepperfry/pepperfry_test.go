@@ -28,7 +28,7 @@ func TestPepperfry_Metadata(t *testing.T) {
 		t.Fatalf("expected 3 categories, got %d", len(cats))
 	}
 
-	expectedSlugs := []string{"furniture-sofas", "furniture-coffee-tables", "furniture-dining-chairs"}
+	expectedSlugs := []string{"category/3-seater-sofas", "category/coffee-tables", "category/dining-chairs"}
 	expectedNames := []string{"sofas", "coffee_tables", "dining_chairs"}
 
 	for i, c := range cats {
@@ -48,7 +48,7 @@ func TestPepperfry_ListProducts(t *testing.T) {
 	}
 
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path == "/category/furniture-sofas.html" {
+		if r.URL.Path == "/category/3-seater-sofas.html" {
 			w.Header().Set("Content-Type", "text/html")
 			w.WriteHeader(http.StatusOK)
 			_, _ = w.Write(sofasHTML)
@@ -64,7 +64,7 @@ func TestPepperfry_ListProducts(t *testing.T) {
 	)
 
 	refs, err := client.ListProducts(context.Background(), product.Category{
-		Slug: "furniture-sofas",
+		Slug: "category/3-seater-sofas",
 		Name: "sofas",
 	})
 	if err != nil {
@@ -240,7 +240,7 @@ func TestPepperfry_FetchProduct_DiningChair_OutOfStock(t *testing.T) {
 
 func TestPepperfry_Errors(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		if r.URL.Path == "/category/furniture-broken.html" {
+		if r.URL.Path == "/furniture-broken.html" {
 			w.WriteHeader(http.StatusInternalServerError)
 			return
 		}
