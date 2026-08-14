@@ -1,0 +1,31 @@
+{
+  "product": {
+    "id": 8127456789012,
+    "title": "Boho Geometric Handwoven Area Rug",
+    "handle": "boho-geometric-handwoven-area-rug",
+    "body_html": "<p>A stunning handwoven boho area rug.</p>",
+    "vendor": "Nestasia",
+    "product_type": "Rugs",
+    "tags": [
+      "Rugs",
+      "Home Decor",
+      "Bohemian",
+      "Scandinavian"
+    ],
+    "variants": [
+      {
+        "id": 4455667788990,
+        "title": "5x7 ft",
+        "price": "4999.00",
+        "sku": "NRUG-01",
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "id": 3987654321098,
+        "src": "https://cdn.shopify.com/s/files/1/0012/3456/products/rug1.jpg"
+      }
+    ]
+  }
+}

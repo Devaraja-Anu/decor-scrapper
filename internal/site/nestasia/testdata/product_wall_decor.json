@@ -1,0 +1,31 @@
+{
+  "product": {
+    "id": 8127456789020,
+    "title": "Sunburst Gold Accent Wall Mirror",
+    "handle": "sunburst-gold-accent-wall-mirror",
+    "body_html": "<p>Glamorous contemporary metal wall mirror.</p>",
+    "vendor": "Nestasia",
+    "product_type": "Wall Decor",
+    "tags": [
+      "Wall Decor",
+      "Mirrors",
+      "Glam",
+      "Contemporary"
+    ],
+    "variants": [
+      {
+        "id": 4455667789000,
+        "title": "Default Title",
+        "price": "2750.50",
+        "sku": "NMIR-02",
+        "available": true
+      }
+    ],
+    "images": [
+      {
+        "id": 3987654321110,
+        "src": "https://cdn.shopify.com/s/files/1/0012/3456/products/mirror1.jpg"
+      }
+    ]
+  }
+}

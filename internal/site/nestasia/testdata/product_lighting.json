@@ -1,0 +1,31 @@
+{
+  "product": {
+    "id": 8127456789030,
+    "title": "Nordic Ceramic Table Lamp with Fabric Shade",
+    "handle": "nordic-ceramic-table-lamp",
+    "body_html": "<p>Minimalist modern ceramic bedside lamp.</p>",
+    "vendor": "Nestasia",
+    "product_type": "Lamps & Lighting",
+    "tags": [
+      "Lighting",
+      "Table Lamps",
+      "Modern",
+      "Minimalist"
+    ],
+    "variants": [
+      {
+        "id": 4455667789010,
+        "title": "White / Warm Light",
+        "price": "3890.00",
+        "sku": "NLMP-03",
+        "available": false
+      }
+    ],
+    "images": [
+      {
+        "id": 3987654321120,
+        "src": "https://cdn.shopify.com/s/files/1/0012/3456/products/lamp1.jpg"
+      }
+    ]
+  }
+}

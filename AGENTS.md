@@ -83,4 +83,10 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
   
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 
+
+## 7. Project goals
+
+This is a scrapper project. this will be used to scrap the data from the websites in decisions.md. The resulting json file will be used to create an LLM powered website.
+The website itself will be entirely nextjs to be deployed on vercel. The site allows users to upload a picture of their room and the LLM will use the information we have scrapped to generate a decorated room image and give us the price tag and ways to purchase it, streamlining the experience. THis is to be a portfolio project.
+
 ---
