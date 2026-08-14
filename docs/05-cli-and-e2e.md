@@ -1,59 +1,67 @@
-> [!NOTE]
-> **Context Handoff / Active Milestone Specification**
-> This file specifies the immediate next milestone to be implemented in the project. Any AI agent or developer reading this repository in a fresh context window should use this specification, along with [decisions.md](file:///C:/Programming/Projects/decor-scrapper/decisions.md) and [schema.md](file:///C:/Programming/Projects/decor-scrapper/schema.md), as the exact blueprint and verification checklist for Milestone 5.
+# Milestone 5: CLI Entry Point & End-to-End Orchestration
+
+## Overview
+This milestone integrates all scraping components into a unified command-line application located at [`main.go`](file:///C:/Programming/Projects/decor-scrapper/main.go) and [`cmd/scraper/main.go`](file:///C:/Programming/Projects/decor-scrapper/cmd/scraper/main.go).
 
 ---
 
-# Milestone 5: CLI Entry Point & End-to-End Orchestration (`cmd/scraper`)
+## 1. CLI Usage & Flags
 
-## 1. Overview & Objectives
-Implement the standalone CLI entry point (`cmd/scraper/main.go` and/or root `main.go`) to wire all components together:
-- `internal/site/nestasia`
-- `internal/site/pepperfry`
-- `internal/pipeline`
-- `internal/store`
+```bash
+# Run full scraper for all configured sites (Nestasia & Pepperfry)
+go run .
 
-Provides a clean command-line interface with flags, graceful OS signal handling (`Ctrl+C`), progress logging, and catalog persistence.
+# Run with custom concurrency and output location
+go run . -workers 8 -rate 5.0 -out ./data/catalog.json
 
----
+# Scrape only a single target site
+go run . -site nestasia
+go run . -site pepperfry
 
-## 2. CLI Flags & Configuration
+# Inspect options
+go run . -help
+```
+
+### Supported Flags
 
 | Flag | Type | Default | Description |
 |---|---|---|---|
-| `-out` | string | `"catalog.json"` | Path to the output catalog JSON file |
+| `-out` | string | `"catalog.json"` | Destination path for output catalog JSON file |
 | `-workers` | int | `4` | Number of concurrent fetch workers |
 | `-rate` | float64 | `3.0` | Max requests per second per target site |
-| `-site` | string | `""` | Optional site filter (`"nestasia"`, `"pepperfry"`, or empty for all) |
-| `-timeout` | duration | `10m` | Overall execution timeout before context cancellation |
+| `-site` | string | `""` | Filter to specific site (`"nestasia"`, `"pepperfry"`, or empty for all) |
+| `-timeout` | duration | `10m` | Overall scrape execution timeout before cancellation |
 
 ---
 
-## 3. Implementation Requirements (`cmd/scraper/main.go`)
+## 2. Integrated Architecture
 
-1. **Signal Handling**:
-   - Uses `signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)` to ensure graceful cancellation on user interrupt.
-2. **Site Wiring**:
-   - Instantiates `nestasia.New()` and `pepperfry.New()`.
-   - Filters sites if `-site` flag is specified.
-3. **Pipeline Execution**:
-   - Instantiates `store.NewJSONFileStore(outputPath)`.
-   - Configures `pipeline.Config` with workers, rate limits, and an `OnFetchError` logging callback.
-   - Executes `pipeline.Run(ctx)`.
-4. **Progress & Output Reporting**:
-   - Logs start of category listing phase.
-   - Logs item discovery and fetch progress.
-   - Reports total products merged, file size, and execution duration.
+```
+                 [CLI Flag Parsing & Configuration]
+                                │
+                                ▼
+                       [Site Initialization]
+                 ├── Nestasia (Shopify JSON)
+                 └── Pepperfry (HTML with goquery)
+                                │
+                                ▼
+                   [Pipeline Concurrency Engine]
+                 ├── Discovery (Category listings)
+                 ├── Worker Pool (Parallel ingestion)
+                 └── Per-domain Rate Limiting
+                                │
+                                ▼
+                      [Store Persistence]
+                 └── Atomic merge to catalog.json
+```
 
 ---
 
-## 4. Verification & Testing Strategy
+## 3. End-to-End Verification
 
-1. **CLI Compilation**:
-   - `go build -o scraper.exe ./cmd/scraper` (or `go build ./...`)
-2. **Flag Verification**:
-   - Test `-help` flag output.
-   - Test invalid flag handling.
-3. **End-to-End Test Execution**:
-   - Verify all tests in `go test ./...` continue to pass.
-   - Verify `catalog.json` output structure matches `schema.md`.
+- **Graceful Shutdown**: Listens for `os.Interrupt` and `syscall.SIGTERM` signals, ensuring workers and atomic writes terminate cleanly without corrupting the catalog file.
+- **Test Suite Verification**: Complete unit test coverage across all domain, site, store, and pipeline packages:
+  ```bash
+  go test -v ./...
+  ```
+- **Schema Compliance**: Emits `catalog.json` adhering strictly to [`schema.md`](file:///C:/Programming/Projects/decor-scrapper/schema.md).
