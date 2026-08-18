@@ -73,7 +73,7 @@ type Site interface {
 
 **Why `ListProducts`/`FetchProduct` are split into two methods** rather than one `FetchProducts(category) ([]Product, error)`: gives the pipeline a uniform, product-level unit of work to parallelize across a worker pool. A single combined method would only allow parallelism at the category level, which is a less interesting (and less applicable, given only 3 categories/site) concurrency problem.
 
-**Known asymmetry, accepted:** Nestasia's `products.json` likely returns full product data in the listing call itself, meaning `FetchProduct` will make a technically redundant second request per product for that site. Accepted for v1 — `ProductRef` is kept minimal (URL only) rather than adding an optional payload/hint field to avoid the second call, because the wasted requests cost nothing real at this catalog scale, and premature optimization here isn't worth the interface complexity. Revisit only if this becomes a measured annoyance (e.g., via an optional `Hint any` field on `ProductRef`, type-asserted back out per-site).
+**Asymmetry resolved (v2 update):** In earlier iterations, `FetchProduct` made a redundant second request since `products.json` had basic details. However, Shopify's public `/products/{handle}.json` endpoint omits the variant `available` boolean entirely. By directing `FetchProduct` to the Storefront AJAX endpoint `/products/{handle}.js`, this second call now serves a critical purpose: fetching live, accurate stock availability per variant. The asymmetry resolved itself naturally.
 
 ---
 
@@ -105,15 +105,27 @@ func (p Product) StableKey() string {
 
 ---
 
-## Style tagging: Nestasia vs. Pepperfry (resolved)
+## Pepperfry image extraction (resolved)
 
-**Decision:** Nestasia products get `Styles` populated from the site's own structured facet data (Bohemian, Contemporary, Glam, Minimalist, Modern, Scandinavian). **Pepperfry products ship with `Styles: nil`** — style inference for Pepperfry items is explicitly pushed to the downstream design app's LLM layer, not solved in the scraper.
+**Decision:** Image extraction prioritizes `<script type="application/ld+json">` Schema.org `Product` image first. If missing, it falls back to DOM gallery nodes (`img.v-product-gallery__image`, `img.vipImage`, `data-src`, `data-img`, `data-zoom-image`).
+
+**Strict exclusion:** Any URL matching static site assets, logos, placeholders, or icons (e.g. `w22-pf-logo.svg`, `/assets/`, `.svg`) is explicitly rejected. If no valid product image URL is found, the parser returns `""` (empty string) rather than returning a site logo. A missing image is far better than an incorrect image rendered in the downstream design app.
+
+---
+
+## Style tagging & Facet Extraction (resolved)
+
+**Decision:** 
+- **Nestasia:** Extracted strictly from structured `tags` (supporting `style_<StyleName>` prefixes like `style_Contemporary`, `style_Modern`, `style_Bohemian` plus direct synonyms like `scandi`, `nordic`, `boho`, `luxe`, `minimal`) and structured `options`.
+- **Pepperfry:** Ships with `Styles: []string{}` — style inference for Pepperfry items is explicitly pushed to the downstream design app's LLM layer, not solved in the scraper.
+
+**Rejected: Free-text matching on `title` or `body_html` for Nestasia:** Product descriptions frequently contain compatibility marketing claims (e.g., "pairs well with modern living rooms"). Matching free text would introduce false positives, violating the core principle that a wrong signal is worse than an empty one. Extraction is strictly confined to structured merchant-set fields.
 
 **Rejected: hand-mapped category→style static table for Pepperfry** (e.g. `"sofas" → ["scandinavian"]`). Initially considered viable, but rejected on reflection: category is orthogonal to style — a "sofas" category contains scandi, industrial, and boho sofas mixed together. A blanket category→style mapping wouldn't be coarse-but-honest data, it would be **actively wrong data** — tagging an industrial sofa as Scandinavian is worse than tagging nothing, since downstream filtering logic would trust and act on a false signal. A false signal is worse than an absent one.
 
 **Rejected: scraping Pepperfry's brand/collection pages for style signal** (e.g. the "Bohemiana" brand, which is boho-styled throughout). This is real, honest, site-sourced signal — but coverage is inconsistent (only products belonging to a style-coherent branded collection would get tagged; most of the catalog wouldn't), and pursuing it means crawling a 4th page-type with undocumented/unverified coverage across Pepperfry's other brands (Woodsworth, Casacraft, Amberville, Mintwud, etc.). Real scope creep against a weekend-sprint timeline. Out of scope for v1; could be revisited later as an explicit enhancement, not a default.
 
-**Note left in code:** the `Styles: nil` on Pepperfry products should be commented in-source explaining this is a deliberate decision, not an oversight, so it doesn't read as a bug later.
+**Note left in code:** the `Styles: []string{}` on Pepperfry products is commented in-source explaining this is a deliberate decision, not an oversight, so it doesn't read as a bug later.
 
 ---
 

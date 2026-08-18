@@ -2,12 +2,15 @@ package nestasia_test
 
 import (
 	"context"
+	"encoding/json"
+	"fmt"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"reflect"
 	"testing"
+	"time"
 
 	"devaraja-anu/decor-scrapper/internal/product"
 	"devaraja-anu/decor-scrapper/internal/site"
@@ -280,5 +283,171 @@ func TestNestasia_Errors(t *testing.T) {
 	_, err = client.FetchProduct(context.Background(), product.ProductRef{URL: server.URL + "/products/nonexistent", Category: "rugs"})
 	if err == nil {
 		t.Errorf("expected error for 404 product, got nil")
+	}
+}
+
+func TestNestasia_FetchProduct_JSEndpoint(t *testing.T) {
+	jsPayload := `{
+		"id": 4722390630509,
+		"title": "Petalia Acacia Wood Platter Set",
+		"handle": "petalia-acacia-wood-platter-set",
+		"available": true,
+		"price": 125000,
+		"tags": ["dining", "style_Contemporary", "style_Modern", "material_Wood"],
+		"images": ["//cdn.shopify.com/s/files/1/2690/0106/products/platter1.jpg"],
+		"variants": [
+			{"id": 32752913219693, "title": "Default", "available": true, "price": 125000}
+		],
+		"options": [
+			{"name": "Style", "values": ["Contemporary"]}
+		]
+	}`
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path == "/products/petalia-acacia-wood-platter-set.js" {
+			w.Header().Set("Content-Type", "application/json")
+			w.WriteHeader(http.StatusOK)
+			_, _ = w.Write([]byte(jsPayload))
+			return
+		}
+		http.NotFound(w, r)
+	}))
+	defer server.Close()
+
+	client := nestasia.New(
+		nestasia.WithBaseURL(server.URL),
+		nestasia.WithHTTPClient(server.Client()),
+	)
+
+	prod, err := client.FetchProduct(context.Background(), product.ProductRef{
+		URL:      server.URL + "/products/petalia-acacia-wood-platter-set",
+		Category: "dining",
+	})
+	if err != nil {
+		t.Fatalf("unexpected fetch error: %v", err)
+	}
+
+	if !prod.InStock {
+		t.Errorf("expected in_stock true, got false")
+	}
+	if prod.PriceMinor != 125000 {
+		t.Errorf("expected price_minor 125000, got %d", prod.PriceMinor)
+	}
+	if prod.ImageURL != "https://cdn.shopify.com/s/files/1/2690/0106/products/platter1.jpg" {
+		t.Errorf("expected image URL 'https://cdn.shopify.com/...', got %q", prod.ImageURL)
+	}
+	expectedStyles := []string{"contemporary", "modern"}
+	if !reflect.DeepEqual(prod.Styles, expectedStyles) {
+		t.Errorf("expected styles %v, got %v", expectedStyles, prod.Styles)
+	}
+}
+
+func TestNestasia_StructuredStyles_Extraction(t *testing.T) {
+	testCases := []struct {
+		name     string
+		tags     string
+		options  string
+		expected []string
+	}{
+		{
+			name:     "Style prefix tags",
+			tags:     `["decor", "style_Bohemian", "style_Scandinavian"]`,
+			options:  `[]`,
+			expected: []string{"bohemian", "scandinavian"},
+		},
+		{
+			name:     "Direct synonyms in tags",
+			tags:     `["boho", "nordic", "luxe", "minimal"]`,
+			options:  `[]`,
+			expected: []string{"bohemian", "glam", "minimalist", "scandinavian"},
+		},
+		{
+			name:     "Structured option fields",
+			tags:     `["homeware"]`,
+			options:  `[{"name": "Style", "values": ["Mid-Century Modern"]}]`,
+			expected: []string{"modern"},
+		},
+		{
+			name:     "Unrelated tags produce no false positives",
+			tags:     `["flower", "pot", "style_Tropical", "style_Farmhouse", "decor"]`,
+			options:  `[]`,
+			expected: []string{},
+		},
+	}
+
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			jsonResp := fmt.Sprintf(`{
+				"id": 99999,
+				"title": "Item",
+				"handle": "item",
+				"available": true,
+				"price": 10000,
+				"tags": %s,
+				"images": ["//cdn.shopify.com/item.jpg"],
+				"options": %s
+			}`, tc.tags, tc.options)
+
+			server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+				w.Header().Set("Content-Type", "application/json")
+				w.WriteHeader(http.StatusOK)
+				_, _ = w.Write([]byte(jsonResp))
+			}))
+			defer server.Close()
+
+			client := nestasia.New(
+				nestasia.WithBaseURL(server.URL),
+				nestasia.WithHTTPClient(server.Client()),
+			)
+
+			if !reflect.DeepEqual(prod.Styles, tc.expected) {
+				t.Errorf("styles mismatch for %s: expected %v, got %v", tc.name, tc.expected, prod.Styles)
+			}
+		})
+	}
+}
+
+func TestLive_VerifyProductsJSON(t *testing.T) {
+	client := &http.Client{Timeout: 10 * time.Second}
+
+	endpoints := []string{
+		"https://nestasia.in/products.json?limit=5",
+		"https://nestasia.in/collections/wall-decor/products.json?limit=5",
+		"https://nestasia.in/collections/dining/products.json?limit=5",
+		"https://nestasia.in/collections/rugs/products.json?limit=5",
+	}
+
+	for _, u := range endpoints {
+		req, _ := http.NewRequest(http.MethodGet, u, nil)
+		req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+		req.Header.Set("Accept", "application/json")
+
+		resp, err := client.Do(req)
+		if err != nil {
+			t.Errorf("URL %s error: %v", u, err)
+			continue
+		}
+
+		var payload struct {
+			Products []struct {
+				ID     int64  `json:"id"`
+				Title  string `json:"title"`
+				Handle string `json:"handle"`
+			} `json:"products"`
+		}
+
+		err = json.NewDecoder(resp.Body).Decode(&payload)
+		resp.Body.Close()
+
+		t.Logf("URL: %s", u)
+		t.Logf("  Status: %d (%s)", resp.StatusCode, resp.Status)
+		t.Logf("  Content-Type: %s", resp.Header.Get("Content-Type"))
+		t.Logf("  Products Returned: %d", len(payload.Products))
+		for i, p := range payload.Products {
+			if i >= 2 {
+				break
+			}
+			t.Logf("    - [%d] %s (%s)", p.ID, p.Title, p.Handle)
+		}
 	}
 }

@@ -23,7 +23,7 @@ import (
 func main() {
 	outPath := flag.String("out", "catalog.json", "Destination path for output catalog JSON file")
 	workers := flag.Int("workers", 4, "Number of concurrent fetch workers")
-	rateLimit := flag.Float64("rate", 3.0, "Max requests per second per target site")
+	rateLimit := flag.Float64("rate", 1.5, "Max requests per second per target site")
 	siteFilter := flag.String("site", "", "Filter to specific site ('nestasia', 'pepperfry', or empty for all)")
 	timeout := flag.Duration("timeout", 10*time.Minute, "Overall scrape execution timeout")
 	flag.Parse()

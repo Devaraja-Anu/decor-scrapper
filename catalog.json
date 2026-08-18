@@ -1,6 +1,32 @@
 [
   {
     "source": "nestasia",
+    "external_id": "4449800028269",
+    "url": "https://nestasia.in/products/marbleselfstickingpaper2",
+    "name": "MARBLE Marble Self Sticking Paper - White",
+    "price_minor": 45000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/102a.png?v=1577611818",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:16.169645Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4449800978541",
+    "url": "https://nestasia.in/products/storagerackd",
+    "name": "MERRY Round Metal \u0026 Wood Rack - Gold",
+    "price_minor": 179500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/1a_04ae2ed5-2581-422c-a185-3ce528a6d73c.png?v=1577611874",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:33.7387269Z"
+  },
+  {
+    "source": "nestasia",
     "external_id": "4722379554925",
     "url": "https://nestasia.in/products/metal-wall-shelf",
     "name": "Metal Wall Shelf",
@@ -10,7 +36,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Roundwallrack.jpg?v=1592376282",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:26.189866Z"
+    "scraped_at": "2026-08-18T14:51:05.9871872Z"
   },
   {
     "source": "nestasia",
@@ -23,7 +49,59 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/goldmetalroundshelf.jpg?v=1592387040",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:31.2019739Z"
+    "scraped_at": "2026-08-18T14:51:13.7661024Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722379784301",
+    "url": "https://nestasia.in/products/flower-hook",
+    "name": "Flower hook",
+    "price_minor": 25000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/318.jpg?v=1592461275",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:05.6025637Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722387452013",
+    "url": "https://nestasia.in/products/pink-shelf",
+    "name": "Rectangle Shelf",
+    "price_minor": 85000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/RectangleShelf6.png?v=1622770248",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:34.155699Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722388041837",
+    "url": "https://nestasia.in/products/movie-hook-set",
+    "name": "Movie Hook Set",
+    "price_minor": 145000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/moviewallhooks_231031ce-7390-418d-a08f-f3efd7823588.jpg?v=1594463632",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:49.4124541Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722388140141",
+    "url": "https://nestasia.in/products/music-hook-set",
+    "name": "Music Hook Set",
+    "price_minor": 85000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_89041.jpg?v=1669790850",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:59.1879654Z"
   },
   {
     "source": "nestasia",
@@ -36,7 +114,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/686.jpg?v=1592891680",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:58.5076745Z"
+    "scraped_at": "2026-08-18T14:50:07.9897697Z"
   },
   {
     "source": "nestasia",
@@ -49,7 +127,72 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/691.jpg?v=1592844321",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:06.1981948Z"
+    "scraped_at": "2026-08-18T14:50:25.1710076Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722390990957",
+    "url": "https://nestasia.in/products/wall-handing-mesh",
+    "name": "Wall Hanging Mesh",
+    "price_minor": 59000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingMesh.jpg?v=1592483258",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:42.525277Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722391154797",
+    "url": "https://nestasia.in/products/wall-hook-large",
+    "name": "Wall Hook Large",
+    "price_minor": 105000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Wallhookssmallandlarge_1f1bbd76-8ffe-4e8c-9d47-ad54edd7786b.jpg?v=1592394825",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:54.1808818Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722391220333",
+    "url": "https://nestasia.in/products/black-white-wall-hook",
+    "name": "Wall Hook Black White",
+    "price_minor": 72000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHooks.jpg?v=1592916107",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:23:38.0064541Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722394103917",
+    "url": "https://nestasia.in/products/heart-wall-hanging",
+    "name": "Heart Wall Hanging",
+    "price_minor": 119000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/heartwallhangingpink.jpg?v=1592911469",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:21.5656912Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4722394169453",
+    "url": "https://nestasia.in/products/flamingo-bunting",
+    "name": "Flamingo Bunting",
+    "price_minor": 33000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_5767_Custom.jpg?v=1660038951",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:42.3204871Z"
   },
   {
     "source": "nestasia",
@@ -62,7 +205,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HeartShelfPinkdoubl.png?v=1594464291",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:29.2059094Z"
+    "scraped_at": "2026-08-18T14:51:10.0785835Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738838855789",
+    "url": "https://nestasia.in/products/heart-shaped-shelf",
+    "name": "Heart Shelf Black",
+    "price_minor": 92500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HeartShelfBlack.png?v=1593436078",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:15.885214Z"
   },
   {
     "source": "nestasia",
@@ -75,7 +231,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WoodenandMetalShelfside.png?v=1593510113",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:18.2031534Z"
+    "scraped_at": "2026-08-18T14:50:50.6667609Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738839019629",
+    "url": "https://nestasia.in/products/2-tier-shelf",
+    "name": "Two Tier Shelf",
+    "price_minor": 165000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/TwoTierShelfcov.png?v=1617706551",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:23.5270104Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738839117933",
+    "url": "https://nestasia.in/products/2-tier-rack-black",
+    "name": "Double Decker Rack",
+    "price_minor": 115000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DoubleDeckerRackGolddecor.jpg?v=1617706445",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:47.418122Z"
   },
   {
     "source": "nestasia",
@@ -88,7 +270,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/MountainShapedShelfgreen.png?v=1593515746",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:19.2158191Z"
+    "scraped_at": "2026-08-18T14:48:49.168401Z"
   },
   {
     "source": "nestasia",
@@ -101,7 +283,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/MountainShapedShelfBlack.png?v=1593516273",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:44.2039642Z"
+    "scraped_at": "2026-08-18T14:49:44.7743763Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738840428653",
+    "url": "https://nestasia.in/products/metal-wood-shelf",
+    "name": "Round Metal and Wood Shelf",
+    "price_minor": 78000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/MetalandWoodShelf2.png?v=1617706873",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:16.3233079Z"
   },
   {
     "source": "nestasia",
@@ -114,7 +309,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/invisiblewallhook_1.jpg?v=1617446789",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:13.2072618Z"
+    "scraped_at": "2026-08-18T14:48:37.5058496Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738841051245",
+    "url": "https://nestasia.in/products/metal-wall-rack",
+    "name": "Metal Wall Rack",
+    "price_minor": 169000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5519.jpg?v=1689922985",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:25.3376989Z"
   },
   {
     "source": "nestasia",
@@ -127,7 +335,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CloudShelfGoldtwo.png?v=1593522627",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:02.7012156Z"
+    "scraped_at": "2026-08-18T14:50:26.7105371Z"
   },
   {
     "source": "nestasia",
@@ -140,7 +348,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5938-Edit.jpg?v=1689924593",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:31.5026585Z"
+    "scraped_at": "2026-08-18T14:49:16.2721458Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738841968749",
+    "url": "https://nestasia.in/products/house-wall-rack",
+    "name": "House Wall rack",
+    "price_minor": 99000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HomeWallHanger-2.png?v=1593190401",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:41.2115789Z"
   },
   {
     "source": "nestasia",
@@ -153,7 +374,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HomeWallHanger-1_d453b6bd-78e1-4c6f-8762-a252bef57639.png?v=1593223451",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:30.507375Z"
+    "scraped_at": "2026-08-18T14:49:14.4912567Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738842034285",
+    "url": "https://nestasia.in/products/grey-house-wall-rack",
+    "name": "Grey House Wall Rack",
+    "price_minor": 99000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HomeWallHanger-7.png?v=1593223363",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:22.4969421Z"
   },
   {
     "source": "nestasia",
@@ -166,7 +400,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HomeWallHanger-10_7d6ec6bc-2c59-48e7-86a9-438a5e79fbb1.png?v=1593223809",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:29.2317934Z"
+    "scraped_at": "2026-08-18T14:49:12.7304236Z"
   },
   {
     "source": "nestasia",
@@ -179,7 +413,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WhiteHeartShelf-1.jpg?v=1593547580",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:34.1991815Z"
+    "scraped_at": "2026-08-18T14:51:29.1580958Z"
   },
   {
     "source": "nestasia",
@@ -192,7 +426,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WoodenShelfM.png?v=1593550337",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:35.2055636Z"
+    "scraped_at": "2026-08-18T14:51:22.135574Z"
   },
   {
     "source": "nestasia",
@@ -205,7 +439,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/NSA16344.jpg?v=1617436752",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:15.194819Z"
+    "scraped_at": "2026-08-18T14:48:42.4254723Z"
   },
   {
     "source": "nestasia",
@@ -218,7 +452,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/TableCalendar_15_60e4bf2a-aff9-4223-b1f9-6fe44a0fcd01.jpg?v=1617453939",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:34.2071393Z"
+    "scraped_at": "2026-08-18T14:49:22.0098682Z"
   },
   {
     "source": "nestasia",
@@ -231,7 +465,46 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Hanger.png?v=1593166152",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:12.1994477Z"
+    "scraped_at": "2026-08-18T14:48:32.5968254Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4738842427501",
+    "url": "https://nestasia.in/products/key-wall-hook",
+    "name": "Key Wall Hook",
+    "price_minor": 95000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Hanger-2.png?v=1593168506",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:04.743846Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4749159104621",
+    "url": "https://nestasia.in/products/cane-table-shelf",
+    "name": "Cane Table Shelf",
+    "price_minor": 249000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CaneTableShelf.jpg?v=1594032271",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:55.5805319Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4774353436781",
+    "url": "https://nestasia.in/products/decorative-wall-hook",
+    "name": "Decorative Wall Hook",
+    "price_minor": 115000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_9288.jpg?v=1597398491",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:18.180921Z"
   },
   {
     "source": "nestasia",
@@ -244,7 +517,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallPegBoardstyled.png?v=1596994710",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:25.2022626Z"
+    "scraped_at": "2026-08-18T14:51:00.9098203Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4827484455021",
+    "url": "https://nestasia.in/products/bunting",
+    "name": "Bunting",
+    "price_minor": 34000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/bunting.jpg?v=1606722181",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:53.9471242Z"
   },
   {
     "source": "nestasia",
@@ -257,7 +543,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/SantaDecor0.png?v=1603030154",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:14.1954742Z"
+    "scraped_at": "2026-08-18T14:50:40.6206379Z"
   },
   {
     "source": "nestasia",
@@ -270,7 +556,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHookSmallall.png?v=1603027117",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:23.2615213Z"
+    "scraped_at": "2026-08-18T14:49:01.0129292Z"
   },
   {
     "source": "nestasia",
@@ -283,7 +569,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Squarewallshelf2.png?v=1603176712",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:24.6858577Z"
+    "scraped_at": "2026-08-18T14:49:02.9606845Z"
   },
   {
     "source": "nestasia",
@@ -296,7 +582,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5919.jpg?v=1689930901",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:17.1885005Z"
+    "scraped_at": "2026-08-18T14:48:44.3542131Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828583985261",
+    "url": "https://nestasia.in/products/round-shelf",
+    "name": "Round Shelf",
+    "price_minor": 125000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5532.jpg?v=1689929558",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:06.9816863Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828584018029",
+    "url": "https://nestasia.in/products/wall-hanging-shelf",
+    "name": "Wall Hanging Shelf",
+    "price_minor": 129000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingShelfarrow.png?v=1603178476",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:45.4988182Z"
   },
   {
     "source": "nestasia",
@@ -309,7 +621,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingHookscover.png?v=1603178874",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:16.1989217Z"
+    "scraped_at": "2026-08-18T14:48:44.1979096Z"
   },
   {
     "source": "nestasia",
@@ -335,7 +647,46 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HexagonWallShelfcover.png?v=1603185308",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:02.5691934Z"
+    "scraped_at": "2026-08-18T14:50:15.9921491Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828584640621",
+    "url": "https://nestasia.in/products/hanging-hooks",
+    "name": "Hanging Hooks",
+    "price_minor": 55300,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/HangingHooks1.png?v=1603187227",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:21.1384599Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828584804461",
+    "url": "https://nestasia.in/products/blackboard-decor",
+    "name": "Blackboard Decor",
+    "price_minor": 199000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/BlackboardDecor0.jpg?v=1603189563",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:00.0191606Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828584935533",
+    "url": "https://nestasia.in/products/cactus-planter",
+    "name": "Cactus Planter",
+    "price_minor": 169000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CactusPlanter0.png?v=1618490567",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:42.7798551Z"
   },
   {
     "source": "nestasia",
@@ -348,7 +699,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CactusHangingPlant3.png?v=1603193325",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:21.2014574Z"
+    "scraped_at": "2026-08-18T14:50:53.0817662Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4828716105837",
+    "url": "https://nestasia.in/products/heart-shelf-1",
+    "name": "Heart Shelf",
+    "price_minor": 80500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5561_bbc77e16-f8f6-466a-9c36-a7c0cc9ad18e.jpg?v=1689924702",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:39.4656664Z"
   },
   {
     "source": "nestasia",
@@ -361,7 +725,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallOrganiser_17.jpg?v=1615883345",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:35.195793Z"
+    "scraped_at": "2026-08-18T14:49:22.6324563Z"
   },
   {
     "source": "nestasia",
@@ -374,7 +738,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingorganiser_3.jpg?v=1610010371",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:46.1920182Z"
+    "scraped_at": "2026-08-18T14:49:44.9243492Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4876093063277",
+    "url": "https://nestasia.in/products/wall-hanging-with-pockets",
+    "name": "Wall Hanging With Pockets",
+    "price_minor": 47500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingWithPockets_5.jpg?v=1615878815",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:21.6182929Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "4894236180589",
+    "url": "https://nestasia.in/products/guitat-hook-set",
+    "name": "Guitar Hook Set",
+    "price_minor": 145000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/GuitatHookSet_6.jpg?v=1612176744",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:31.8359685Z"
   },
   {
     "source": "nestasia",
@@ -387,7 +777,72 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Fashionhookset_2.jpg?v=1612610822",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:45.1853009Z"
+    "scraped_at": "2026-08-18T14:49:43.5015409Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6547336953965",
+    "url": "https://nestasia.in/products/wall-hooks-set-of-3",
+    "name": "Wall Hooks - Set of 3",
+    "price_minor": 145000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHooks-Setof3_7.jpg?v=1616064243",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:14.4974162Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6552018124909",
+    "url": "https://nestasia.in/products/switch-board-sticker",
+    "name": "Switch Board Sticker",
+    "price_minor": 49000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Cover_6af38271-e8a9-4920-ba7b-31ff688f3fba.jpg?v=1617096273",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:30.589808Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6552018223213",
+    "url": "https://nestasia.in/products/wall-stickers-for-switchboard",
+    "name": "Wall Stickers For Switchboard",
+    "price_minor": 35000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Cover_952b297a-08bb-4909-bb0e-0c0f09064f2c.jpg?v=1617090356",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:04.9509195Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6552018485357",
+    "url": "https://nestasia.in/products/switchboard-decoration",
+    "name": "Switchboard Decoration",
+    "price_minor": 49000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Cover_efe092f2-6e48-4221-b261-2de902531bb0.jpg?v=1617275274",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:24.0170422Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6552018780269",
+    "url": "https://nestasia.in/products/ice-cream-hooks",
+    "name": "Ice Cream Hook",
+    "price_minor": 87500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_5383.jpg?v=1632661633",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:48.2985573Z"
   },
   {
     "source": "nestasia",
@@ -400,7 +855,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/Cover_91478305-5231-4f6b-ad79-b73534c6e36d.jpg?v=1617091676",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:26.1831662Z"
+    "scraped_at": "2026-08-18T14:49:20.2705059Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6556791570541",
+    "url": "https://nestasia.in/products/square-metal-shelf",
+    "name": "Square Metal Shelf",
+    "price_minor": 95000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/SquareMetalShelf_6.jpg?v=1620038335",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:32.2863599Z"
   },
   {
     "source": "nestasia",
@@ -412,8 +880,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_1470_e46ccf01-9475-401e-8782-ed5350ddaf41.jpg?v=1675065321",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:04.4301795Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:50:19.8842716Z"
   },
   {
     "source": "nestasia",
@@ -426,7 +894,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/blackboard_6.jpg?v=1617613178",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:16.1912719Z"
+    "scraped_at": "2026-08-18T14:50:53.8589313Z"
   },
   {
     "source": "nestasia",
@@ -439,7 +907,35 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/NSA16696.jpg?v=1617614332",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:05.1941214Z"
+    "scraped_at": "2026-08-18T14:48:17.7880737Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6556792029293",
+    "url": "https://nestasia.in/products/wall-hanging-shelf-reindeer-rectangle-gold",
+    "name": "Wall Hanging Shelf Reindeer Rectangle Gold",
+    "price_minor": 83500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "contemporary"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/wallhangingshelves_19.jpg?v=1670224197",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:27.074264Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6561603027053",
+    "url": "https://nestasia.in/products/metal-wall-shelf-rack",
+    "name": "Metal Wall Shelf Rack",
+    "price_minor": 84000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/metalwallrack_2_8dacda9a-0130-4a6a-b9ed-62e7d9a42b39.jpg?v=1618552157",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:35.8835966Z"
   },
   {
     "source": "nestasia",
@@ -452,7 +948,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC04360.jpg?v=1669807043",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:33.2186173Z"
+    "scraped_at": "2026-08-18T14:49:28.8428395Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6600559067245",
+    "url": "https://nestasia.in/products/wall-hanging-plate",
+    "name": "Wall Hanging Plate",
+    "price_minor": 89000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallHangingPlate3.jpg?v=1689245185",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:51.9858872Z"
   },
   {
     "source": "nestasia",
@@ -465,7 +974,72 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WallPlate22.jpg?v=1626501445",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:42.207566Z"
+    "scraped_at": "2026-08-18T14:49:37.007006Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6623870746733",
+    "url": "https://nestasia.in/products/dark-green-wall-art",
+    "name": "Dark Green Wall Art",
+    "price_minor": 62500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6326.jpg?v=1628859871",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:37.7651417Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6623870845037",
+    "url": "https://nestasia.in/products/black-wall-art",
+    "name": "Black Wall Art",
+    "price_minor": 71500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6314.jpg?v=1628860940",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:47.3502587Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6623870910573",
+    "url": "https://nestasia.in/products/hand-woven-basket",
+    "name": "Hand Woven Basket",
+    "price_minor": 64500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6346.jpg?v=1628861363",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:55.5928208Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6629421482093",
+    "url": "https://nestasia.in/products/moonj-wall-decor-plate",
+    "name": "Moonj Wall Decor Plate",
+    "price_minor": 35000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6936.jpg?v=1629378694",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:20.3890859Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6629421514861",
+    "url": "https://nestasia.in/products/pink-wall-art",
+    "name": "Pink Wall Art",
+    "price_minor": 31000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6947.jpg?v=1629378864",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:00.832375Z"
   },
   {
     "source": "nestasia",
@@ -478,7 +1052,46 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6910.jpg?v=1629378990",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:32.2128266Z"
+    "scraped_at": "2026-08-18T14:51:24.6473743Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6629421580397",
+    "url": "https://nestasia.in/products/vibrant-wall-decor",
+    "name": "Vibrant Wall Decor",
+    "price_minor": 79000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6915.jpg?v=1629379094",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:31.610508Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6629421613165",
+    "url": "https://nestasia.in/products/moonj-wall-plate",
+    "name": "Moonj Wall Plate",
+    "price_minor": 62500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_6892.jpg?v=1629379172",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:08.2638464Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6644039254125",
+    "url": "https://nestasia.in/products/paris-hanging-hook-set-of-3",
+    "name": "Paris Hanging Hook Set of 3",
+    "price_minor": 75000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF1157.jpg?v=1634992035",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:07.8881174Z"
   },
   {
     "source": "nestasia",
@@ -491,7 +1104,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa8new515.png?v=1632991969",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:55.1875182Z"
+    "scraped_at": "2026-08-18T14:50:02.0616279Z"
   },
   {
     "source": "nestasia",
@@ -504,7 +1117,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa8new496.png?v=1632992077",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:49.1925007Z"
+    "scraped_at": "2026-08-18T14:49:51.7772147Z"
   },
   {
     "source": "nestasia",
@@ -517,7 +1130,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07120.jpg?v=1634386078",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:07.5450456Z"
+    "scraped_at": "2026-08-18T14:50:26.9468854Z"
   },
   {
     "source": "nestasia",
@@ -530,7 +1143,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07140.jpg?v=1634386386",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:00.1966696Z"
+    "scraped_at": "2026-08-18T14:50:12.4578552Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6647108436077",
+    "url": "https://nestasia.in/products/cute-switch-sticker",
+    "name": "Cute Switch Sticker",
+    "price_minor": 99000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07150_dea39ec3-5a19-4bac-8a17-6e8636d96a25.jpg?v=1634386531",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:07.7402893Z"
   },
   {
     "source": "nestasia",
@@ -543,7 +1169,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07186_062b9b33-1145-4b02-a981-6a671d9df8fa.jpg?v=1634386739",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:56.2053671Z"
+    "scraped_at": "2026-08-18T14:50:04.0067855Z"
   },
   {
     "source": "nestasia",
@@ -556,7 +1182,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new144.png?v=1635221721",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:33.2179399Z"
+    "scraped_at": "2026-08-18T14:51:17.9813161Z"
   },
   {
     "source": "nestasia",
@@ -569,7 +1195,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new129.png?v=1635222571",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:11.2098329Z"
+    "scraped_at": "2026-08-18T14:48:28.8057458Z"
   },
   {
     "source": "nestasia",
@@ -582,7 +1208,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4172.jpg?v=1636708258",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:24.1922336Z"
+    "scraped_at": "2026-08-18T14:50:59.1423414Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148192365",
+    "url": "https://nestasia.in/products/key-holder-for-wall",
+    "name": "Key Holder For Wall",
+    "price_minor": 63000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4175.jpg?v=1636709727",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:59.0913015Z"
   },
   {
     "source": "nestasia",
@@ -595,7 +1234,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new104.png?v=1635223711",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:28.1852975Z"
+    "scraped_at": "2026-08-18T14:51:18.0186303Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148323437",
+    "url": "https://nestasia.in/products/hanging-flower-vase-large",
+    "name": "Hanging Flower Vase-Large",
+    "price_minor": 45000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new96.png?v=1635227216",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:10.9921123Z"
   },
   {
     "source": "nestasia",
@@ -608,7 +1260,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new89.png?v=1635227531",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:20.2306135Z"
+    "scraped_at": "2026-08-18T14:50:50.934622Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148421741",
+    "url": "https://nestasia.in/products/wall-bookshelf-gold",
+    "name": "Wall Bookshelf - Gold",
+    "price_minor": 152000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new78_777e0a97-81bd-45ff-848f-2f0cb983da70.png?v=1635228554",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:28.8533642Z"
   },
   {
     "source": "nestasia",
@@ -621,7 +1286,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new79_080813a8-e17a-4466-812e-a3799523e75c.png?v=1635229055",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:24.1891249Z"
+    "scraped_at": "2026-08-18T14:49:02.7598408Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148487277",
+    "url": "https://nestasia.in/products/wall-bookshelf-white",
+    "name": "Wall Bookshelf - White",
+    "price_minor": 108500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new84.png?v=1635229217",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:03.7947971Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148520045",
+    "url": "https://nestasia.in/products/floating-wall-shelf-black",
+    "name": "Floating Wall Shelf - Black",
+    "price_minor": 115000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new80.png?v=1635229596",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:14.1434332Z"
   },
   {
     "source": "nestasia",
@@ -634,7 +1325,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/CSC_3028.jpg?v=1683625735",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:07.6950533Z"
+    "scraped_at": "2026-08-18T14:50:26.9020423Z"
   },
   {
     "source": "nestasia",
@@ -647,7 +1338,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new65.png?v=1635230196",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:51.191309Z"
+    "scraped_at": "2026-08-18T14:49:55.5211601Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650148618349",
+    "url": "https://nestasia.in/products/hanging-shelf-big",
+    "name": "Hanging Shelf - Big",
+    "price_minor": 85000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4084.jpg?v=1636709872",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:04.8569192Z"
   },
   {
     "source": "nestasia",
@@ -660,7 +1364,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new54_d41d2422-b418-449b-810d-fd577e2d739d.png?v=1635230623",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:12.1918043Z"
+    "scraped_at": "2026-08-18T14:50:35.9924672Z"
   },
   {
     "source": "nestasia",
@@ -673,7 +1377,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/decor159_b0d96f19-6784-4d80-b9dd-25d79968685c.png?v=1635231085",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:09.4959073Z"
+    "scraped_at": "2026-08-18T14:50:38.8691068Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6650149142637",
+    "url": "https://nestasia.in/products/floating-wall-rack",
+    "name": "Floating Wall Rack",
+    "price_minor": 28000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/decor11.png?v=1635166724",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:53.7523783Z"
   },
   {
     "source": "nestasia",
@@ -686,7 +1403,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new133.png?v=1635166968",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:40.2131877Z"
+    "scraped_at": "2026-08-18T14:49:33.4756548Z"
   },
   {
     "source": "nestasia",
@@ -699,7 +1416,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new104_094e43c0-e90a-4d3d-a7b5-634a06fc107e.png?v=1635249708",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:30.1889808Z"
+    "scraped_at": "2026-08-18T14:51:12.0382926Z"
   },
   {
     "source": "nestasia",
@@ -712,7 +1429,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new98_107b20d5-372f-4e19-88bc-8d0978573c21.png?v=1635249400",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:37.499494Z"
+    "scraped_at": "2026-08-18T14:49:27.1096913Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656959905901",
+    "url": "https://nestasia.in/products/hanging-flower-vase-medium",
+    "name": "Hanging Flower Vase - Medium",
+    "price_minor": 33200,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new97_4543a2f4-376e-4938-86d7-4d7733aba909.png?v=1635249303",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:12.7404849Z"
   },
   {
     "source": "nestasia",
@@ -725,7 +1455,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new91.png?v=1635249572",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:17.1964452Z"
+    "scraped_at": "2026-08-18T14:50:45.7193003Z"
   },
   {
     "source": "nestasia",
@@ -738,7 +1468,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new56_9d0c514c-a957-4489-a7e2-1a7337d7b946.png?v=1635336949",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:48.1978897Z"
+    "scraped_at": "2026-08-18T14:49:50.0333488Z"
   },
   {
     "source": "nestasia",
@@ -751,7 +1481,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16new57_d3e01ab8-fa10-4b47-9e33-e24f69ee11fa.png?v=1635251431",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:01.2048926Z"
+    "scraped_at": "2026-08-18T14:50:17.9551029Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656960823405",
+    "url": "https://nestasia.in/products/hanging-glass-planter-triangle",
+    "name": "Hanging Glass Planter - Triangle",
+    "price_minor": 52500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF3544.jpg?v=1636711037",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:26.9033834Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656960856173",
+    "url": "https://nestasia.in/products/hanging-glass-planter-hexagon",
+    "name": "Hanging Glass Planter - Hexagon",
+    "price_minor": 39000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF3529.jpg?v=1636711473",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:47.6059223Z"
   },
   {
     "source": "nestasia",
@@ -764,7 +1520,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF3503.jpg?v=1636711298",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:41.2035349Z"
+    "scraped_at": "2026-08-18T14:49:44.7220963Z"
   },
   {
     "source": "nestasia",
@@ -777,7 +1533,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4050.jpg?v=1636712400",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:07.2061119Z"
+    "scraped_at": "2026-08-18T14:48:21.9999915Z"
   },
   {
     "source": "nestasia",
@@ -790,7 +1546,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/nsa16n126_1afbcc1b-82c1-4f35-8d80-c00c03d5cd8b.png?v=1689245047",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:53.2076941Z"
+    "scraped_at": "2026-08-18T14:49:59.6607783Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656961380461",
+    "url": "https://nestasia.in/products/metal-wall-planter",
+    "name": "Metal Wall Planter",
+    "price_minor": 87500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DSC_5493.jpg?v=1689931865",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:10.4169867Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656961413229",
+    "url": "https://nestasia.in/products/arrow-planter",
+    "name": "Arrow Planter",
+    "price_minor": 79000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/decor93.png?v=1635242672",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:48.9753107Z"
   },
   {
     "source": "nestasia",
@@ -803,7 +1585,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/decor117.png?v=1635242751",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:06.1952284Z"
+    "scraped_at": "2026-08-18T14:48:19.1145258Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656961544301",
+    "url": "https://nestasia.in/products/star-shelf",
+    "name": "Star Shelf",
+    "price_minor": 119500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC00120_2f92346a-e8da-442d-903e-8e08327bf608.jpg?v=1636712762",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:57.9262155Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656961871981",
+    "url": "https://nestasia.in/products/black-wall-hook-large",
+    "name": "Black Wall Hook - Large",
+    "price_minor": 83500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16n469.png?v=1635245336",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:33.2583988Z"
   },
   {
     "source": "nestasia",
@@ -816,7 +1624,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16n463.png?v=1635245432",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:36.2113518Z"
+    "scraped_at": "2026-08-18T14:49:25.162825Z"
   },
   {
     "source": "nestasia",
@@ -829,7 +1637,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa16n461_c2061877-47da-44a7-a0cb-36dab4612acf.png?v=1635245722",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:39.1987825Z"
+    "scraped_at": "2026-08-18T14:49:31.5313679Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656961970285",
+    "url": "https://nestasia.in/products/gold-wall-hook-large",
+    "name": "Gold Wall Hook - Large",
+    "price_minor": 125000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4833.jpg?v=1637232575",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:18.0689865Z"
   },
   {
     "source": "nestasia",
@@ -842,7 +1663,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4009.jpg?v=1636713167",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:08.2126698Z"
+    "scraped_at": "2026-08-18T14:48:32.3994236Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6656962035821",
+    "url": "https://nestasia.in/products/clothes-hook-gold",
+    "name": "Clothes Hook - Gold",
+    "price_minor": 63800,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4029.jpg?v=1636713411",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:20.1366473Z"
   },
   {
     "source": "nestasia",
@@ -859,6 +1693,32 @@
   },
   {
     "source": "nestasia",
+    "external_id": "6661794496621",
+    "url": "https://nestasia.in/products/fairy-princess-decor",
+    "name": "Fairy Princess Decor",
+    "price_minor": 35000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC09474.jpg?v=1636353437",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:07.1410066Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6706528059501",
+    "url": "https://nestasia.in/products/antique-style-picture-frame",
+    "name": "Antique Style Picture Frame",
+    "price_minor": 25000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF2513.jpg?v=1642233099",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:18.7882771Z"
+  },
+  {
+    "source": "nestasia",
     "external_id": "6739988250733",
     "url": "https://nestasia.in/products/bird-wall-hook",
     "name": "Bird Wall Hook",
@@ -870,7 +1730,22 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/nsa8514.png?v=1646475209",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:13.1973015Z"
+    "scraped_at": "2026-08-18T14:50:42.529699Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739989168237",
+    "url": "https://nestasia.in/products/circular-wall-tube-vase",
+    "name": "Circular Wall Tube Vase",
+    "price_minor": 75000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/7_ea62740d-00f9-4288-a0e7-ddc86da0bfb5.jpg?v=1646487105",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:34.0313194Z"
   },
   {
     "source": "nestasia",
@@ -885,7 +1760,67 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CSC_0527.jpg?v=1646461033",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:27.2552671Z"
+    "scraped_at": "2026-08-18T14:51:05.6627694Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739989233773",
+    "url": "https://nestasia.in/products/diamond-holder-tube-vase",
+    "name": "Diamond Wall Tube Vase",
+    "price_minor": 69000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CSC_0540.jpg?v=1646550508",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:50.8221169Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739989266541",
+    "url": "https://nestasia.in/products/triangular-wall-tube-vase",
+    "name": "Triangular Wall Tube Vase",
+    "price_minor": 69000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/WXNU224_1.jpg?v=1657600716",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:35.790851Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739990151277",
+    "url": "https://nestasia.in/products/wall-mount-hanger",
+    "name": "Wall Mount Hanger",
+    "price_minor": 149000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07010.jpg?v=1646464015",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:38.2485732Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739990184045",
+    "url": "https://nestasia.in/products/flora-wall-mount-hanger",
+    "name": "Flora Wall Mount Hanger",
+    "price_minor": 149000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07088.jpg?v=1655195098",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:54.1663805Z"
   },
   {
     "source": "nestasia",
@@ -900,7 +1835,37 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC06989.jpg?v=1646463147",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:32.2019878Z"
+    "scraped_at": "2026-08-18T14:49:18.0255259Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739990249581",
+    "url": "https://nestasia.in/products/gold-and-blue-wall-mount-hanger",
+    "name": "Gold and Blue Wall Mount Hanger",
+    "price_minor": 119200,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC06971.jpg?v=1646463873",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:22.3921396Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6739990282349",
+    "url": "https://nestasia.in/products/sweet-home-hanger",
+    "name": "Sweet Home Hanger",
+    "price_minor": 92000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC07177_30336fa2-7f74-4da4-8fe7-6db833ecb693.jpg?v=1646484436",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:55.8071258Z"
   },
   {
     "source": "nestasia",
@@ -915,7 +1880,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/TMB80D06_1.jpg?v=1657543588",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:50.2039874Z"
+    "scraped_at": "2026-08-18T14:49:53.7801582Z"
   },
   {
     "source": "nestasia",
@@ -930,7 +1895,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/9.4.jpg?v=1648209154",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:59.2015609Z"
+    "scraped_at": "2026-08-18T14:50:13.1876828Z"
   },
   {
     "source": "nestasia",
@@ -943,7 +1908,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_0604_82933c34-87e7-4653-924c-06978f78af85.jpg?v=1648121830",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:14.2075043Z"
+    "scraped_at": "2026-08-18T14:48:37.6337006Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6774367649901",
+    "url": "https://nestasia.in/products/blue-and-golden-hanging-decor",
+    "name": "Blue And Golden Hanging Decor",
+    "price_minor": 295000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/m21nsa80190.jpg?v=1648116400",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:14.2077346Z"
   },
   {
     "source": "nestasia",
@@ -958,7 +1936,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/N1.11.jpg?v=1648209430",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:15.1917071Z"
+    "scraped_at": "2026-08-18T14:50:42.5617649Z"
   },
   {
     "source": "nestasia",
@@ -973,7 +1951,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_0274.jpg?v=1713097155",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:43.1982579Z"
+    "scraped_at": "2026-08-18T14:49:39.9845328Z"
   },
   {
     "source": "nestasia",
@@ -988,7 +1966,22 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/m21nsa80129.jpg?v=1648465417",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:57.2238976Z"
+    "scraped_at": "2026-08-18T14:50:05.9491392Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6774369091693",
+    "url": "https://nestasia.in/products/moon-and-astronaut-wall-hook",
+    "name": "Moon and Astronaut Wall Hook",
+    "price_minor": 119000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "contemporary"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/m21nsa80224.jpg?v=1648123171",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:12.2571683Z"
   },
   {
     "source": "nestasia",
@@ -1003,7 +1996,33 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/m21nsa8058.jpg?v=1648466595",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:27.1926959Z"
+    "scraped_at": "2026-08-18T14:49:11.0029174Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6798954365037",
+    "url": "https://nestasia.in/products/dress-hook",
+    "name": "Dress Hook",
+    "price_minor": 49000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_4830_f8f85dbd-d856-4684-85ac-08c8a2fb2b17.jpg?v=1650961420",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:28.9095427Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6798954397805",
+    "url": "https://nestasia.in/products/rose-hook",
+    "name": "Rose Hook",
+    "price_minor": 49000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_4816_fd3ebac8-1e88-4e1b-a976-86a13e4144d4.jpg?v=1650972423",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:33.6945246Z"
   },
   {
     "source": "nestasia",
@@ -1029,7 +2048,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC01386_c8dde7e2-406d-4ca4-8257-82117e61f394.jpg?v=1658407785",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:52.1948516Z"
+    "scraped_at": "2026-08-18T14:50:07.9575834Z"
   },
   {
     "source": "nestasia",
@@ -1042,7 +2061,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC01366_2db53e55-e68d-4ced-a480-d3ef9dd98f22.jpg?v=1658407864",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:22.184851Z"
+    "scraped_at": "2026-08-18T14:49:00.0628535Z"
   },
   {
     "source": "nestasia",
@@ -1055,7 +2074,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC01449.jpg?v=1658407961",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:21.5119838Z"
+    "scraped_at": "2026-08-18T14:48:58.9696618Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6850928771181",
+    "url": "https://nestasia.in/products/black-foil-butterfly-3d-wall-stickers-set-of-12",
+    "name": "Black Foil Butterfly 3D Wall Stickers Set Of 12",
+    "price_minor": 15000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC01401_079dfdde-54cd-4738-9c66-8c0a5a6302ab.jpg?v=1658408035",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:23.3280366Z"
   },
   {
     "source": "nestasia",
@@ -1068,7 +2100,20 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_7806.jpg?v=1658411736",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:20.1954386Z"
+    "scraped_at": "2026-08-18T14:48:54.2056077Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6850929066093",
+    "url": "https://nestasia.in/products/yellow-gold-butterfly-3d-wall-stickers-set-of-36",
+    "name": "Yellow Gold Butterfly 3D Wall Stickers Set Of 36",
+    "price_minor": 36000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_7832.jpg?v=1658412868",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:49:43.2820775Z"
   },
   {
     "source": "nestasia",
@@ -1081,7 +2126,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_7845.jpg?v=1658412968",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:23.2073766Z"
+    "scraped_at": "2026-08-18T14:50:57.3839531Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6850929131629",
+    "url": "https://nestasia.in/products/black-butterfly-3d-wall-stickers-set-of-36",
+    "name": "Black Butterfly 3D Wall Stickers Set Of 36",
+    "price_minor": 30500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_7859.jpg?v=1658415123",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:13.9694296Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6850929164397",
+    "url": "https://nestasia.in/products/rose-gold-butterfly-3d-wall-stickers-set-of-36",
+    "name": "Rose Gold Butterfly 3D Wall Stickers Set Of 36",
+    "price_minor": 36000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_7874.jpg?v=1658413265",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:05.7357992Z"
   },
   {
     "source": "nestasia",
@@ -1094,7 +2165,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CSC_2502.jpg?v=1664349765",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:38.1801144Z"
+    "scraped_at": "2026-08-18T14:49:33.6185153Z"
   },
   {
     "source": "nestasia",
@@ -1107,7 +2178,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_9267_e34844bf-5529-4745-b934-ad3dfaca9516.jpg?v=1664350589",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:47.1950916Z"
+    "scraped_at": "2026-08-18T14:49:47.2205372Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6891195007085",
+    "url": "https://nestasia.in/products/floral-embellished-wall-hanging-set-of-2",
+    "name": "Floral Embellished Wall Hanging Set of 2",
+    "price_minor": 109000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/CSC_2809.jpg?v=1664529246",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:50:42.364584Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6903091953773",
+    "url": "https://nestasia.in/products/glow-snowman-wooden-led-light-hanging-ornament",
+    "name": "Glow Snowman Wooden LED Light Hanging Ornament",
+    "price_minor": 59000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC6128.jpg?v=1667038948",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:19.6910267Z"
   },
   {
     "source": "nestasia",
@@ -1120,7 +2217,46 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_42451.jpg?v=1666783336",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:19.2057757Z"
+    "scraped_at": "2026-08-18T14:51:03.006993Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6903092346989",
+    "url": "https://nestasia.in/products/checkered-santa-claus-christmas-stocking-red-11-5-inch",
+    "name": "Checkered Santa Claus Christmas Stocking Red 11.5 Inch",
+    "price_minor": 59000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_1606.jpg?v=1666784195",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:57.3202624Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6903092379757",
+    "url": "https://nestasia.in/products/woven-gift-stocking-9-inch",
+    "name": "Woven Gift Stocking 9 Inch",
+    "price_minor": 45000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_42501.jpg?v=1666783394",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:13.8342165Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6903092412525",
+    "url": "https://nestasia.in/products/checkered-bear-christmas-stocking-12-inch",
+    "name": "Checkered Bear Christmas Stocking 12 Inch",
+    "price_minor": 59000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_42671.jpg?v=1666783528",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:50:49.0808867Z"
   },
   {
     "source": "nestasia",
@@ -1133,7 +2269,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_0243-Edit.jpg?v=1666867205",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:05.5283267Z"
+    "scraped_at": "2026-08-18T14:50:23.3764777Z"
   },
   {
     "source": "nestasia",
@@ -1146,7 +2282,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSC_0233-Edit.jpg?v=1666848810",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:54.1912141Z"
+    "scraped_at": "2026-08-18T14:49:59.8786936Z"
   },
   {
     "source": "nestasia",
@@ -1158,8 +2294,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4886_09f29229-a3c3-47cd-81a7-0525df58ed49.jpg?v=1669442412",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:22.1895368Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:50:55.6205096Z"
   },
   {
     "source": "nestasia",
@@ -1171,8 +2307,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF4815.jpg?v=1669442627",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:28.1848404Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:49:09.2582177Z"
   },
   {
     "source": "nestasia",
@@ -1186,8 +2322,23 @@
       "modern"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/IMG_5136_10a8b7e1-1100-4c02-bc4c-90f2e440e3c8.jpg?v=1669726509",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:50:37.7492507Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6949729894509",
+    "url": "https://nestasia.in/products/christmas-trees-bunting-98-inch",
+    "name": "Christmas Trees Bunting 98 Inch",
+    "price_minor": 85000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF5281_33437bb5-f53c-4254-ab67-d4d4ac498f65.jpg?v=1669728497",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:11.1898694Z"
+    "scraped_at": "2026-08-18T14:50:26.82118Z"
   },
   {
     "source": "nestasia",
@@ -1202,7 +2353,53 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF5209_35c9e5e0-a8f6-4303-8e9a-bb82ff5b59f2.jpg?v=1669726543",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:52:10.1905416Z"
+    "scraped_at": "2026-08-18T14:50:32.0381564Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6949729960045",
+    "url": "https://nestasia.in/products/christmas-baubles-bunting-98-inch",
+    "name": "Christmas Baubles Bunting 98 Inch",
+    "price_minor": 85000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/DSCF5249_f2bb16b7-ec23-4f69-ab7b-4f9038fa3164.jpg?v=1669727203",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:03.9009909Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "6951038943341",
+    "url": "https://nestasia.in/products/welcome-wall-hanging-metal-rack-gold",
+    "name": "Welcome Wall Hanging Metal Rack Gold",
+    "price_minor": 77500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "contemporary"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/products/wallhangingshelves_17_b729129d-1520-4bfd-8d65-9e5bea351ba6.jpg?v=1670223252",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:51:10.2814551Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7083556405357",
+    "url": "https://nestasia.in/products/flower-wall-decor-gold",
+    "name": "Flower Wall Decor Gold",
+    "price_minor": 185000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "contemporary",
+      "glam"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/RoseWallDecor_2.jpg?v=1694782417",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:14.4819029Z"
   },
   {
     "source": "nestasia",
@@ -1212,10 +2409,28 @@
     "price_minor": 159000,
     "currency": "INR",
     "category": "wall_decor",
-    "styles": [],
+    "styles": [
+      "glam"
+    ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_2.webp?v=1695900573",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:03.1918951Z"
+    "scraped_at": "2026-08-18T14:48:15.1696641Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7092082114669",
+    "url": "https://nestasia.in/products/honeybee-wall-decor-gold",
+    "name": "Honeybee Wall Decor Gold",
+    "price_minor": 159000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "glam",
+      "modern"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_3_def65e65-88be-4f78-a56d-a85675afe37e.webp?v=1695911297",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:15.773588Z"
   },
   {
     "source": "nestasia",
@@ -1225,10 +2440,27 @@
     "price_minor": 149000,
     "currency": "INR",
     "category": "wall_decor",
-    "styles": [],
+    "styles": [
+      "glam"
+    ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/TropicalParrotWallDecor_7.webp?v=1696567725",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:04.2102468Z"
+    "scraped_at": "2026-08-18T14:48:16.446924Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7092082573421",
+    "url": "https://nestasia.in/products/parrot-monstera-wall-decor-gold",
+    "name": "Parrot Monstera Wall Decor Gold",
+    "price_minor": 149000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [
+      "glam"
+    ],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/ParrotWallDecor_9.webp?v=1695902161",
+    "in_stock": false,
+    "scraped_at": "2026-08-18T14:48:17.1145041Z"
   },
   {
     "source": "nestasia",
@@ -1241,7 +2473,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_1_b09ce909-e156-4dcf-9bd9-905ddc539615.webp?v=1697032013",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:53.7363968Z"
+    "scraped_at": "2026-08-18T14:48:02.459907Z"
   },
   {
     "source": "nestasia",
@@ -1254,7 +2486,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreath_4.webp?v=1697029721",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:54.686077Z"
+    "scraped_at": "2026-08-18T14:48:03.7791452Z"
   },
   {
     "source": "nestasia",
@@ -1266,8 +2498,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreath_5_0b5385b1-47b6-45dc-8d97-0a311273e533.webp?v=1697034266",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:55.2042248Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:04.4534318Z"
   },
   {
     "source": "nestasia",
@@ -1280,7 +2512,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/floralwreath_4.webp?v=1697034075",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:56.516047Z"
+    "scraped_at": "2026-08-18T14:48:05.8472865Z"
   },
   {
     "source": "nestasia",
@@ -1292,8 +2524,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreathforhomedecor_3.webp?v=1696953366",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:56.9901032Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:06.7409464Z"
   },
   {
     "source": "nestasia",
@@ -1306,7 +2538,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/ecofriendlyflowerwreath_1.webp?v=1697030662",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:57.9244759Z"
+    "scraped_at": "2026-08-18T14:48:07.7854171Z"
   },
   {
     "source": "nestasia",
@@ -1319,7 +2551,33 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/driedflowerswreath_3.webp?v=1697029775",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:58.6995593Z"
+    "scraped_at": "2026-08-18T14:48:09.4301382Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7104700416109",
+    "url": "https://nestasia.in/products/natural-rose-rattan-hanging-decoration-sustainable-set-of-4",
+    "name": "Natural Rose Rattan Hanging Decoration Sustainable Set Of 4",
+    "price_minor": 89500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/rosewallhanging_1.webp?v=1697034622",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:10.0335043Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7104700514413",
+    "url": "https://nestasia.in/products/natural-red-flower-wall-hanging-with-tassels-set-of-4",
+    "name": "Natural Red Flower Wall Hanging With Tassels Set Of 4",
+    "price_minor": 109000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/sholawallhanging_4.webp?v=1696954256",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:10.4976036Z"
   },
   {
     "source": "nestasia",
@@ -1331,8 +2589,21 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/miniwallhanging_3.webp?v=1697191165",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:00.5205703Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:11.1110699Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7104700645485",
+    "url": "https://nestasia.in/products/sustainable-sola-blue-flower-ball-wall-hanging-set-of-4",
+    "name": "Sustainable Sola Blue Flower Ball Wall Hanging Set Of 4",
+    "price_minor": 109000,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/driedflower_3_80b4897a-f96d-4d5e-8c3d-09b50ead465e.webp?v=1696954715",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:11.7778148Z"
   },
   {
     "source": "nestasia",
@@ -1344,8 +2615,21 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/solaball_4.webp?v=1696954764",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:12.477345Z"
+  },
+  {
+    "source": "nestasia",
+    "external_id": "7104700711021",
+    "url": "https://nestasia.in/products/sustainable-sola-flower-wall-hanging-decor-set-of-4-pink",
+    "name": "Sustainable Sola Flower Wall Hanging Decor Set of 4 Pink",
+    "price_minor": 99500,
+    "currency": "INR",
+    "category": "wall_decor",
+    "styles": [],
+    "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/flowerwallhanging_1.webp?v=1697034139",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:01.4984685Z"
+    "scraped_at": "2026-08-18T14:48:13.1051248Z"
   },
   {
     "source": "nestasia",
@@ -1358,7 +2642,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/ecofriendlywallhanging_3.webp?v=1697030869",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:51:02.188917Z"
+    "scraped_at": "2026-08-18T14:48:13.7953313Z"
   },
   {
     "source": "nestasia",
@@ -1371,7 +2655,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreath_6.webp?v=1697548380",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:50.1963126Z"
+    "scraped_at": "2026-08-18T14:47:57.8072159Z"
   },
   {
     "source": "nestasia",
@@ -1384,7 +2668,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreath_2_b13528b9-ceb9-427c-8da6-03d652e31312.webp?v=1697596873",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:51.698201Z"
+    "scraped_at": "2026-08-18T14:48:00.0952527Z"
   },
   {
     "source": "nestasia",
@@ -1396,8 +2680,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/wreath_2_f76af6e0-c867-4e20-b069-7d4557861975.webp?v=1697549561",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:52.1926361Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:00.4363893Z"
   },
   {
     "source": "nestasia",
@@ -1412,7 +2696,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_5.jpg?v=1698649782",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:52.7073846Z"
+    "scraped_at": "2026-08-18T14:48:01.1313543Z"
   },
   {
     "source": "nestasia",
@@ -1425,7 +2709,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_1_60458a27-f69b-4234-9ad5-72fee7e49811.jpg?v=1698656833",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:49.2032305Z"
+    "scraped_at": "2026-08-18T14:47:56.4900512Z"
   },
   {
     "source": "nestasia",
@@ -1440,7 +2724,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_5_2d2de5c9-adab-4496-9677-947b19ebe289.jpg?v=1699276483",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:49.6934899Z"
+    "scraped_at": "2026-08-18T14:47:57.1548187Z"
   },
   {
     "source": "nestasia",
@@ -1455,7 +2739,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Narelibeadhanging_2.jpg?v=1701837291",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:48.698982Z"
+    "scraped_at": "2026-08-18T14:47:55.7848235Z"
   },
   {
     "source": "nestasia",
@@ -1469,8 +2753,8 @@
       "glam"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/XOXOBunting_5.jpg?v=1705666216",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:51.1845356Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:59.1118023Z"
   },
   {
     "source": "nestasia",
@@ -1484,8 +2768,8 @@
       "glam"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/XOXOGoldBunting_4.jpg?v=1705939380",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:54.2111453Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:48:03.1444322Z"
   },
   {
     "source": "nestasia",
@@ -1500,7 +2784,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/HeartsBunting_3.jpg?v=1705666480",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:57.2252306Z"
+    "scraped_at": "2026-08-18T14:48:07.1153185Z"
   },
   {
     "source": "nestasia",
@@ -1514,8 +2798,8 @@
       "glam"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Wallhanging_2_088f8ecb-ac2c-4a5a-80a3-ce3847e5f2c4.jpg?v=1706029447",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:50.6920229Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:58.4467095Z"
   },
   {
     "source": "nestasia",
@@ -1530,7 +2814,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Wallhanging_1_f3aabdb1-9df3-4351-baf6-cafb5bb7e521.jpg?v=1706029000",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:53.2165584Z"
+    "scraped_at": "2026-08-18T14:48:01.781157Z"
   },
   {
     "source": "nestasia",
@@ -1545,7 +2829,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Wallhanging_1_780a589a-892b-4b2c-aeca-d0512f914056.jpg?v=1706029477",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:55.7024342Z"
+    "scraped_at": "2026-08-18T14:48:05.1252802Z"
   },
   {
     "source": "nestasia",
@@ -1560,7 +2844,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Wallhanging_1_9f53f4e9-b7c1-4fc5-8e62-b4f52b42e13d.jpg?v=1706029099",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:58.5706057Z"
+    "scraped_at": "2026-08-18T14:48:08.4555407Z"
   },
   {
     "source": "nestasia",
@@ -1576,7 +2860,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/FlowerWallDecor_11.jpg?v=1709900446",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:48.1994757Z"
+    "scraped_at": "2026-08-18T14:47:55.165496Z"
   },
   {
     "source": "nestasia",
@@ -1591,8 +2875,8 @@
       "modern"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/black-gold-blooming-carnation-flower-wall-decor.jpg?v=1724132184",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:47.6916175Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:54.4634124Z"
   },
   {
     "source": "nestasia",
@@ -1607,7 +2891,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/stylish-evil-eye-wall-hanging-with-beads-for-home-decor.jpg?v=1724324090",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:41.2031586Z"
+    "scraped_at": "2026-08-18T14:47:45.8073851Z"
   },
   {
     "source": "nestasia",
@@ -1622,7 +2906,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/stylish-evil-eye-pendant-wall-hanging-set-of-2.jpg?v=1724323705",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:41.6934675Z"
+    "scraped_at": "2026-08-18T14:47:46.4515349Z"
   },
   {
     "source": "nestasia",
@@ -1637,7 +2921,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/unique-boho-chic-macrame-evil-eye-wall-hanging.jpg?v=1724323399",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:42.5001886Z"
+    "scraped_at": "2026-08-18T14:47:47.1639556Z"
   },
   {
     "source": "nestasia",
@@ -1652,7 +2936,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/modern-glass-evil-eye-pendant-wall-hanging.jpg?v=1724324281",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:42.688246Z"
+    "scraped_at": "2026-08-18T14:47:47.8013776Z"
   },
   {
     "source": "nestasia",
@@ -1667,7 +2951,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/boho-chic-evil-eye-wall-hanging-for-home-decor.jpg?v=1724323533",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:43.2296793Z"
+    "scraped_at": "2026-08-18T14:47:48.4851695Z"
   },
   {
     "source": "nestasia",
@@ -1682,7 +2966,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/unique-beaded-evil-eye-wall-hanging-set-of-2.jpg?v=1724323181",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:43.703055Z"
+    "scraped_at": "2026-08-18T14:47:49.1269948Z"
   },
   {
     "source": "nestasia",
@@ -1697,7 +2981,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/decorative-hamsa-hand-evil-eye-wall-hanging-set-of-2.jpg?v=1724324008",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:44.2116678Z"
+    "scraped_at": "2026-08-18T14:47:49.7660465Z"
   },
   {
     "source": "nestasia",
@@ -1712,7 +2996,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/unique-pink-salt-macrame-wall-hanging-set-of-2.jpg?v=1724324640",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:44.6975297Z"
+    "scraped_at": "2026-08-18T14:47:50.4430734Z"
   },
   {
     "source": "nestasia",
@@ -1727,7 +3011,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/delicate-pink-salt-crystal-macrame-hanging-set-of-2.jpg?v=1724324543",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:45.1962227Z"
+    "scraped_at": "2026-08-18T14:47:51.1105383Z"
   },
   {
     "source": "nestasia",
@@ -1741,8 +3025,8 @@
       "bohemian"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/stylish-bohemian-macrame-evil-eye-wall-hanging-set-of-3.jpg?v=1724323279",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:45.6949524Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:51.7876954Z"
   },
   {
     "source": "nestasia",
@@ -1757,7 +3041,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/boho-crochet-macrame-evil-eye-wall-hanging.jpg?v=1724323617",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:46.2039512Z"
+    "scraped_at": "2026-08-18T14:47:52.4896832Z"
   },
   {
     "source": "nestasia",
@@ -1772,7 +3056,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/decorative-glam-style-evil-eye-wall-hanging-trinket-set-of-2.jpg?v=1724324185",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:46.7088939Z"
+    "scraped_at": "2026-08-18T14:47:53.1141171Z"
   },
   {
     "source": "nestasia",
@@ -1787,7 +3071,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/premium-macrame-himalayan-salt-crystal-wall-hanging-set-of-2.jpg?v=1724324441",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:47.1843237Z"
+    "scraped_at": "2026-08-18T14:47:53.7785352Z"
   },
   {
     "source": "nestasia",
@@ -1800,7 +3084,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/decorative-lotus-wooden-wall-hangings-set-of-8.jpg?v=1726134798",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:38.2039553Z"
+    "scraped_at": "2026-08-18T14:47:41.7884176Z"
   },
   {
     "source": "nestasia",
@@ -1813,7 +3097,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/decorative-lotus-wall-hangings-set-of-12.jpg?v=1724996049",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:38.7112181Z"
+    "scraped_at": "2026-08-18T14:47:43.4962232Z"
   },
   {
     "source": "nestasia",
@@ -1826,7 +3110,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/elegant-vibrant-pink-floral-wall-hangings-set-of-15.jpg?v=1726202924",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:39.201446Z"
+    "scraped_at": "2026-08-18T14:47:43.1466884Z"
   },
   {
     "source": "nestasia",
@@ -1839,7 +3123,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/organic-ring-and-bell-sola-flower-wall-hanging-set-of-6.jpg?v=1726144505",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:39.6850799Z"
+    "scraped_at": "2026-08-18T14:47:43.7862537Z"
   },
   {
     "source": "nestasia",
@@ -1852,7 +3136,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/vibrant-sustainable-rose-garden-wall-decor-set-of-7.jpg?v=1726146107",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:40.1905584Z"
+    "scraped_at": "2026-08-18T14:47:44.4974799Z"
   },
   {
     "source": "nestasia",
@@ -1865,7 +3149,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/natural-rose-rattan-wall-hanging-set-of-12-red.jpg?v=1726141580",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:40.6902121Z"
+    "scraped_at": "2026-08-18T14:47:45.1312016Z"
   },
   {
     "source": "nestasia",
@@ -1878,7 +3162,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/torand1copy.jpg?v=1728919649",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:35.2145977Z"
+    "scraped_at": "2026-08-18T14:47:37.8114872Z"
   },
   {
     "source": "nestasia",
@@ -1891,7 +3175,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/toran-wall-hanging.jpg?v=1727367765",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:35.7067087Z"
+    "scraped_at": "2026-08-18T14:47:38.4507152Z"
   },
   {
     "source": "nestasia",
@@ -1905,8 +3189,8 @@
       "modern"
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/toranDSC_2052copy2.jpg?v=1727367641",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:36.1897236Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:39.098789Z"
   },
   {
     "source": "nestasia",
@@ -1919,7 +3203,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/toran.jpg?v=1727367498",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:36.6865864Z"
+    "scraped_at": "2026-08-18T14:47:39.781142Z"
   },
   {
     "source": "nestasia",
@@ -1934,7 +3218,7 @@
     ],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/front-door-floral-laminated-jute-festive-wall-hanging-with-tassels.jpg?v=1726219071",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:37.2158746Z"
+    "scraped_at": "2026-08-18T14:47:40.4613929Z"
   },
   {
     "source": "nestasia",
@@ -1947,7 +3231,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/embellished-festive-flower-wall-hanging-with-moti-balls.jpg?v=1726217744",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:37.7136119Z"
+    "scraped_at": "2026-08-18T14:47:41.1316158Z"
   },
   {
     "source": "nestasia",
@@ -1960,7 +3244,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/pichwaihangings_4.jpg?v=1727335720",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:33.7017837Z"
+    "scraped_at": "2026-08-18T14:47:35.7881645Z"
   },
   {
     "source": "nestasia",
@@ -1973,7 +3257,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/walldecor_1_5dfa95eb-4971-44c3-acd3-0411b3618af1.jpg?v=1727335988",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:34.1862883Z"
+    "scraped_at": "2026-08-18T14:47:36.7617348Z"
   },
   {
     "source": "nestasia",
@@ -1986,7 +3270,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/WallHangings_4_8831a635-cc52-4159-967d-5b0824603ef9.jpg?v=1726574525",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:34.6998251Z"
+    "scraped_at": "2026-08-18T14:47:37.1129007Z"
   },
   {
     "source": "nestasia",
@@ -1999,7 +3283,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DaisyBunting_5.jpg?v=1730290293",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:31.2521431Z"
+    "scraped_at": "2026-08-18T14:47:32.4498019Z"
   },
   {
     "source": "nestasia",
@@ -2012,7 +3296,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/bunting_1_221ea645-4314-46b2-af29-c77f1a316980.jpg?v=1730887904",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:31.7026731Z"
+    "scraped_at": "2026-08-18T14:47:32.4455632Z"
   },
   {
     "source": "nestasia",
@@ -2025,7 +3309,7 @@
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/DinoBunting_1.jpg?v=1730291010",
     "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:32.2072253Z"
+    "scraped_at": "2026-08-18T14:47:33.3464865Z"
   },
   {
     "source": "nestasia",
@@ -2037,8 +3321,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/GardenBunting_1.jpg?v=1730290744",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:31.1969022Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:33.7760834Z"
   },
   {
     "source": "nestasia",
@@ -2050,8 +3334,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Constructionbunting_2.jpg?v=1730290131",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:32.6958003Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:34.4425967Z"
   },
   {
     "source": "nestasia",
@@ -2063,8 +3347,8 @@
     "category": "wall_decor",
     "styles": [],
     "image_url": "https://cdn.shopify.com/s/files/1/2690/0106/files/Bunting_5.jpg?v=1730289393",
-    "in_stock": false,
-    "scraped_at": "2026-08-14T09:50:33.1927564Z"
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:47:35.4648784Z"
   },
   {
     "source": "pepperfry",
@@ -2075,7 +3359,7 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:44.000628Z"
   },
@@ -2088,22 +3372,22 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:37.3099741Z"
   },
   {
     "source": "pepperfry",
     "external_id": "1745608",
-    "url": "https://www.pepperfry.com/product/miranda-fabric-3-seater-sofa-in-beige-colour-1745608.html?type=clip\u0026pos=6\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/miranda-fabric-3-seater-sofa-in-beige-colour-1745608.html?type=clip\u0026pos=6\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Miranda Chenille Fabric 3 Seater Sofa In Beige Colour",
     "price_minor": 4949900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/i/1250x625/miranda-chenille-fabric-3-seater-sofa-in-beige-colour-miranda-chenille-fabric-3-seater-sofa-in-beige-uaahmo.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:26.3353611Z"
+    "scraped_at": "2026-08-18T14:51:27.5279632Z"
   },
   {
     "source": "pepperfry",
@@ -2114,35 +3398,48 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:30.6206753Z"
   },
   {
     "source": "pepperfry",
     "external_id": "1745926",
-    "url": "https://www.pepperfry.com/product/andres-fabric-3-seater-sofa-in-chestnut-brown-colour-1745926.html?type=clip\u0026pos=2\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/andres-fabric-3-seater-sofa-in-chestnut-brown-colour-1745926.html?type=clip\u0026pos=2\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Andres Chenille Fabric 3 Seater Sofa In Chestnut Brown Colour",
-    "price_minor": 4849900,
+    "price_minor": 4699900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/n/1250x625/andres-chenille-fabric-3-seater-sofa-in-chestnut-brown-colour-andres-chenille-fabric-3-seater-sofa-i-itwdhf.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:24.9976579Z"
+    "scraped_at": "2026-08-18T14:51:25.2067541Z"
   },
   {
     "source": "pepperfry",
     "external_id": "1745930",
     "url": "https://www.pepperfry.com/product/andres-fabric-3-seater-sofa-in-navy-blue-colour-1745930.html",
     "name": "Andres Chenille Fabric 3 Seater Sofa In Navy Blue Colour",
-    "price_minor": 4849900,
+    "price_minor": 4699900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/n/1250x625/andres-chenille-fabric-3-seater-sofa-in-navy-blue-colour-andres-chenille-fabric-3-seater-sofa-in-nav-ibemds.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:23.7959496Z"
+    "scraped_at": "2026-08-18T14:51:22.6275727Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "1849871",
+    "url": "https://www.pepperfry.com/product/daist-coffee-table-in-exotic-teak-finish-1849871.html",
+    "name": "Daist Coffee Table In Exotic Teak Finish",
+    "price_minor": 419900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/d/a/1100x1210/daist-coffee-table-in-exotic-teak-finish-by-a-globia-creations-daist-coffee-table-in-exotic-teak-fin-wspcms.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:47.7419754Z"
   },
   {
     "source": "pepperfry",
@@ -2153,7 +3450,7 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:45.9709829Z"
   },
@@ -2166,35 +3463,61 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/k/e/1100x1210/kentan-sheesham-wood-dining-chairs-in-honey-oak-finish--set-of-2---kentan-sheesham-wood-dining-chair-8fbkro.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:39.9438086Z"
+    "scraped_at": "2026-08-18T14:51:53.7007696Z"
   },
   {
     "source": "pepperfry",
     "external_id": "1947398",
     "url": "https://www.pepperfry.com/product/orca-coffee-table-in-black-and-dark-grey-colour-1947398.html",
     "name": "Orca Coffee Table in Black \u0026 Dark Grey Colour",
+    "price_minor": 289900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/o/r/1100x1210/orca-coffee-table-in-black---dark-grey-colour-orca-coffee-table-in-black---dark-grey-colour-jksu58.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:39.0501681Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "1947399",
+    "url": "https://www.pepperfry.com/product/orca-coffee-table-in-black-and-cloud-ash-colour-1947399.html",
+    "name": "Orca Coffee Table in Black \u0026 Cloud Ash Colour",
     "price_minor": 299900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/o/r/1100x1210/orca-coffee-table-in-black---cloud-ash-colour-orca-coffee-table-in-black---cloud-ash-colour-vp8f8b.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:32.3570095Z"
+    "scraped_at": "2026-08-18T14:51:48.3682794Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "1947441",
+    "url": "https://www.pepperfry.com/product/miceli-leather-3-seater-sofa-in-brown-finish-1947441.html",
+    "name": "Miceli Leather 3 Seater Sofa In Brown Finish",
+    "price_minor": 8999900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/i/1250x625/miceli-leather-3-seater-sofa-in-brown-finish-miceli-leather-3-seater-sofa-in-brown-finish-gzcumy.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:35.7377366Z"
   },
   {
     "source": "pepperfry",
     "external_id": "1962283",
     "url": "https://www.pepperfry.com/product/adalia-leatherette-3-seater-sofa-in-brown-colour-1962283.html",
     "name": "Adalia Leatherette 3 Seater Sofa In Brown Colour",
-    "price_minor": 5049900,
+    "price_minor": 4899900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/d/1250x625/adalia-leatherette-3-seater-sofa-in-brown-colour-adalia-leatherette-3-seater-sofa-in-brown-colour-a6etes.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:24.0105479Z"
+    "scraped_at": "2026-08-18T14:51:22.9906781Z"
   },
   {
     "source": "pepperfry",
@@ -2205,9 +3528,22 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:45.6563039Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "1985702",
+    "url": "https://www.pepperfry.com/product/alex-coffee-table-in-choco-walnut-colour-1985702.html",
+    "name": "Alex Coffee Table in Choco Walnut Colour",
+    "price_minor": 339900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/l/1100x1210/alex-coffee-table-in-choco-walnut-by-a-globia-creations-alex-coffee-table-in-choco-walnut-by-a-globi-qy5hap.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:50.4052718Z"
   },
   {
     "source": "pepperfry",
@@ -2218,7 +3554,7 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:37.6369062Z"
   },
@@ -2231,9 +3567,9 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/a/1100x1210/max-coffee-table-in-choco-walnut--by-a-globia-creations-max-coffee-table-in-choco-walnut--by-a-globi-vogvsx.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:36.2935767Z"
+    "scraped_at": "2026-08-18T14:51:46.4658438Z"
   },
   {
     "source": "pepperfry",
@@ -2244,35 +3580,61 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:31.2810522Z"
   },
   {
     "source": "pepperfry",
-    "external_id": "1991992",
-    "url": "https://www.pepperfry.com/product/mayrite-round-coffee-table-in-wenge-finish-1991992.html?type=clip\u0026pos=1\u0026total_result=603\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
-    "name": "Mayrite Round Coffee Table in Wenge Finish",
-    "price_minor": 189900,
+    "external_id": "1991984",
+    "url": "https://www.pepperfry.com/product/mayrite-round-coffee-table-in-white-colour-1991984.html",
+    "name": "Marrakech Coffee Table in Black \u0026 White Colour",
+    "price_minor": 209900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/a/1100x1210/marrakech-coffee-table-in-black---white-colour-marrakech-coffee-table-in-black---white-colour-susiyn.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:32.9511858Z"
+    "scraped_at": "2026-08-18T14:51:49.6992766Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "1991992",
+    "url": "https://www.pepperfry.com/product/mayrite-round-coffee-table-in-wenge-finish-1991992.html?type=clip\u0026pos=1\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
+    "name": "Mayrite Round Coffee Table in Wenge Finish",
+    "price_minor": 209900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/a/1100x1210/mayrite-round-coffee-table-in-wenge-finish-mayrite-round-coffee-table-in-wenge-finish-rhi26y.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:40.3664852Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2030097",
+    "url": "https://www.pepperfry.com/product/bae-fabric-3-seater-sofa-in-pebble-brown-colour-2030097.html",
+    "name": "Bae Fabric 3 Seater Sofa in Pebble Brown Colour",
+    "price_minor": 2019900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/b/a/1250x625/bae-fabric-3-seater-sofa-in-pebble-brown-colour-bae-fabric-3-seater-sofa-in-pebble-brown-colour-4sd54o.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:37.0448316Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2030112",
     "url": "https://www.pepperfry.com/product/kiki-fabric-3-seater-sofa-in-graphite-grey-colour-2030112.html",
     "name": "Kiki Fabric 3 Seater Sofa in Graphite Grey Colour",
-    "price_minor": 1529900,
+    "price_minor": 1799900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/k/i/1250x625/kiki-fabric-3-seater-sofa-in-graphite-grey-colour-kiki-fabric-3-seater-sofa-in-graphite-grey-colour-8mn4wk.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:23.3304313Z"
+    "scraped_at": "2026-08-18T14:51:23.1682105Z"
   },
   {
     "source": "pepperfry",
@@ -2283,7 +3645,7 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:28.9424027Z"
   },
@@ -2296,35 +3658,35 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:45.2755955Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2105977",
-    "url": "https://www.pepperfry.com/product/barn-bed-sheesham-wood-dining-chair-in-provincial-teak-finish-2105977.html?type=clip\u0026pos=8\u0026total_result=303\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
+    "url": "https://www.pepperfry.com/product/barn-bed-sheesham-wood-dining-chair-in-provincial-teak-finish-2105977.html?type=clip\u0026pos=8\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Barn \u0026 Bed Sheesham Wood Dining Chair In Scratch Resistant Provincial Teak Finish",
-    "price_minor": 1419900,
+    "price_minor": 1379900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/b/a/1100x1210/barn---bed-sheesham-wood-dining-chair-in-scratch-resistant-provincial-teak-finish-barn---bed-sheesha-yijc6e.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:42.6388976Z"
+    "scraped_at": "2026-08-18T14:51:59.049719Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2107371",
     "url": "https://www.pepperfry.com/product/apollo-center-table-in-sheesham-finish-2107371.html",
     "name": "Kosmo Apollo Coffee Table In Sheesham Finish",
-    "price_minor": 999900,
+    "price_minor": 1119900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/p/1100x1210/apollo-center-table-in-sheesham-finish-apollo-center-table-in-sheesham-finish-r18lro.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:35.9709732Z"
+    "scraped_at": "2026-08-18T14:51:46.9351372Z"
   },
   {
     "source": "pepperfry",
@@ -2335,35 +3697,74 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/g/r/1100x1210/green-cotton-striped-80x60-inches-sofa-throw-green-cotton-striped-80x60-inches-sofa-throw-qgzv3f.jpg",
     "in_stock": false,
-    "scraped_at": "2026-08-14T11:16:28.3994223Z"
+    "scraped_at": "2026-08-18T14:51:30.4682211Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2117331",
+    "url": "https://www.pepperfry.com/product/guldev-velvet-arm-chair-in-dual-colour-2117331.html",
+    "name": "Guldev Velvet Dining Chair in Off White Colour",
+    "price_minor": 1169900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/g/u/1100x1210/guldev-velvet-arm-chair-in-dual-colour-guldev-velvet-arm-chair-in-dual-colour-fhhmhp.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:05.6982307Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2134709",
-    "url": "https://www.pepperfry.com/product/montez-velvet-3-seater-sofa-in-grey-beige-colour-2134709.html?type=clip\u0026pos=3\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/montez-velvet-3-seater-sofa-in-grey-beige-colour-2134709.html?type=clip\u0026pos=3\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Montez Velvet 3 Seater Sofa in Grey \u0026 Beige Colour",
-    "price_minor": 6149900,
+    "price_minor": 5969900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/o/1250x625/montez-velvet-3-seater-sofa-in-grey---beige-colour-montez-velvet-3-seater-sofa-in-grey---beige-colou-kvxkpn.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:25.4324002Z"
+    "scraped_at": "2026-08-18T14:51:26.1781884Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2141721",
-    "url": "https://www.pepperfry.com/product/gistel-sheesham-wood-dining-chair-in-scratch-resistant-provincial-teak-finish-se-2141721.html?type=clip\u0026pos=5\u0026total_result=303\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
+    "url": "https://www.pepperfry.com/product/gistel-sheesham-wood-dining-chair-in-scratch-resistant-provincial-teak-finish-se-2141721.html?type=clip\u0026pos=6\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Gistel Sheesham Wood Dining Chairs In Scratch Resistant Provincial Teak Finish (Set Of 2 )",
-    "price_minor": 2139900,
+    "price_minor": 2079900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/g/i/1100x1210/gistel-sheesham-wood-dining-chairs-in-scratch-resistant-provincial-teak-finish--set-of-2---gistel-sh-9tkxop.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:41.6742974Z"
+    "scraped_at": "2026-08-18T14:51:57.7147777Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2152504",
+    "url": "https://www.pepperfry.com/product/noel-coffee-table-in-brown-maple-finish-2152504.html",
+    "name": "Noel Coffee Table In Brown Maple Finish",
+    "price_minor": 246900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/n/o/1100x1210/noel-coffee-table-in-brown-maple-finish-noel-coffee-table-in-brown-maple-finish-jihqfv.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:49.0316147Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2166569",
+    "url": "https://www.pepperfry.com/product/anatdol-coffee-table-in-brown-maple-colour-2166569.html",
+    "name": "Anatdol Coffee table In Brown Maple Colour",
+    "price_minor": 289900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/n/1100x1210/anatdol-coffee-table-in-brown-maple-colour-anatdol-coffee-table-in-brown-maple-colour-mclhts.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:51.0406473Z"
   },
   {
     "source": "pepperfry",
@@ -2374,9 +3775,22 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:43.3013043Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2170115",
+    "url": "https://www.pepperfry.com/product/alejandro-velvet-3-seater-sofa-in-grey-colour-2170115.html",
+    "name": "Alejandro Velvet 3 Seater Sofa In Carbon Grey Colour",
+    "price_minor": 3249900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/l/1250x625/alejandro-velvet-3-seater-sofa-in-carbon-grey-colour-alejandro-velvet-3-seater-sofa-in-carbon-grey-c-wcbijh.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:33.5289188Z"
   },
   {
     "source": "pepperfry",
@@ -2387,7 +3801,7 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:35.0084834Z"
   },
@@ -2400,35 +3814,35 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:35.4651291Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2189507",
-    "url": "https://www.pepperfry.com/product/derby-velvet-3-seater-sofa-in-carbon-grey-colour-2189507.html?type=clip\u0026pos=8\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/derby-velvet-3-seater-sofa-in-carbon-grey-colour-2189507.html?type=clip\u0026pos=8\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Derby Velvet 3 Seater Sofa In Carbon Grey Colour",
-    "price_minor": 5049900,
+    "price_minor": 4899900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/d/e/1250x625/derby-velvet-3-seater-sofa-in-carbon-grey-colour-derby-velvet-3-seater-sofa-in-carbon-grey-colour-7etg44.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:27.0180022Z"
+    "scraped_at": "2026-08-18T14:51:28.5501633Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2191642",
-    "url": "https://www.pepperfry.com/product/frejol-velvet-3-seater-sofa-in-cream-colour-2191642.html?type=clip\u0026pos=1\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/frejol-velvet-3-seater-sofa-in-cream-colour-2191642.html?type=clip\u0026pos=1\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Frejol Velvet 3 Seater Sofa In Cream Colour",
     "price_minor": 3849900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/f/r/1250x625/frejol-velvet-3-seater-sofa-in-cream-colour-frejol-velvet-3-seater-sofa-in-cream-colour-lreufs.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:24.7344035Z"
+    "scraped_at": "2026-08-18T14:51:23.8656646Z"
   },
   {
     "source": "pepperfry",
@@ -2439,7 +3853,7 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:29.6340731Z"
   },
@@ -2448,13 +3862,26 @@
     "external_id": "2194046",
     "url": "https://www.pepperfry.com/product/bingo-fabric-3-seater-sofa-in-grey-colour-2194046.html",
     "name": "Bingo Fabric 3 Seater Sofa In Grey Colour",
-    "price_minor": 2439900,
+    "price_minor": 2369900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/b/i/1250x625/bingo-fabric-3-seater-sofa-in-grey-colour-bingo-fabric-3-seater-sofa-in-grey-colour-2timof.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:29.2299965Z"
+    "scraped_at": "2026-08-18T14:51:32.3474275Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2194288",
+    "url": "https://www.pepperfry.com/product/bingo-fabric-3-seater-sofa-in-cream-cashmere-colour-2194288.html",
+    "name": "Bingo Fabric 3 Seater Sofa In Creamy Cashmere Colour",
+    "price_minor": 2369900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/b/i/1250x625/bingo-fabric-3-seater-sofa-in-creamy-cashmere-colour-bingo-fabric-3-seater-sofa-in-creamy-cashmere-c-noomsz.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:31.2447376Z"
   },
   {
     "source": "pepperfry",
@@ -2465,9 +3892,35 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/c/r/1250x625/cresco-fabric-3-seater-sofa-in-camel-brown-colour-cresco-fabric-3-seater-sofa-in-camel-brown-colour-copadf.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:30.3418783Z"
+    "scraped_at": "2026-08-18T14:51:33.5278515Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2205021",
+    "url": "https://www.pepperfry.com/product/binche-sheesham-wood-dining-chair-in-provincial-teak-finish-set-of-2-2205021.html",
+    "name": "Binche Sheesham Wood Dining Chair In Scratch Resistant Provincial Teak Finish (Set of 2)",
+    "price_minor": 1779900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/n/1100x1210/andorra-sheesham-wood-tv-unit-in-provincial-teak-finish-andorra-sheesham-wood-tv-unit-in-provincial--iq2vvf.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:59.69649Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2206616",
+    "url": "https://www.pepperfry.com/product/linden-sheesham-wood-3-seater-sofa-in-provincial-teak-finish-2206616.html",
+    "name": "Petra Sheesham Wood 3 Seater Sofa In Beige Colour",
+    "price_minor": 6719900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/p/e/1250x625/petra-sheesham-wood-3-seater-sofa-in-beige-colour-petra-sheesham-wood-3-seater-sofa-in-beige-colour-pjw3hr.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:35.1895454Z"
   },
   {
     "source": "pepperfry",
@@ -2478,9 +3931,22 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/p/r/1100x1210/praha-mango-wood-coffee-table-in-walnut-finish-praha-mango-wood-coffee-table-in-walnut-finish-o3tvi6.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:32.6963826Z"
+    "scraped_at": "2026-08-18T14:51:39.6984435Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2217350",
+    "url": "https://www.pepperfry.com/product/palm-spring-fabric-2-seater-sofa-in-sand-brown-colour-2217350.html",
+    "name": "Palm Spring Fabric 3 Seater Sofa in Sand Brown Colour",
+    "price_minor": 9049900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/p/a/1250x625/palm-spring-fabric-2-seater-sofa-in-sand-brown-colour-palm-spring-fabric-2-seater-sofa-in-sand-brown-9zjpgw.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:36.4023754Z"
   },
   {
     "source": "pepperfry",
@@ -2491,22 +3957,22 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:30.9651497Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2219269",
-    "url": "https://www.pepperfry.com/product/amsterdam-fabric-3-seater-sofa-in-grey-colour-2219269.html?type=clip\u0026pos=5\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/amsterdam-fabric-3-seater-sofa-in-grey-colour-2219269.html?type=clip\u0026pos=5\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Amsterdam Fabric 3 Seater Sofa in Grey Colour",
-    "price_minor": 5149900,
+    "price_minor": 4999900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/m/1250x625/amsterdam-fabric-3-seater-sofa-in-grey-colour-amsterdam-fabric-3-seater-sofa-in-grey-colour-elmthx.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:26.0179819Z"
+    "scraped_at": "2026-08-18T14:51:26.5720282Z"
   },
   {
     "source": "pepperfry",
@@ -2517,9 +3983,9 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/r/o/1100x1210/round-2-tier-marble-top-coffee-table-in-gold-colour-round-2-tier-marble-top-coffee-table-in-gold-col-79a1ou.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:31.6269039Z"
+    "scraped_at": "2026-08-18T14:51:38.4820668Z"
   },
   {
     "source": "pepperfry",
@@ -2530,35 +3996,48 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/n/1100x1210/annecy-mango-wood-dining-chair-in-scratch-resistant-tubbaq-finish---set-of-2--annecy-mango-wood-dini-zw1seq.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:38.9921226Z"
+    "scraped_at": "2026-08-18T14:51:51.6949135Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2229387",
-    "url": "https://www.pepperfry.com/product/leo-coffee-table-in-brown-maple-colour-2229387.html",
+    "url": "https://www.pepperfry.com/product/leo-coffee-table-in-brown-maple-colour-2229387.html?type=clip\u0026pos=5\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
     "name": "Leo  Coffee Table In Brown Maple Colour",
     "price_minor": 274900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/l/e/1100x1210/leo--coffee-table-in-brown-maple-colour-leo--coffee-table-in-brown-maple-colour-gadksa.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:36.9848168Z"
+    "scraped_at": "2026-08-18T14:51:43.7944239Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2244165",
+    "url": "https://www.pepperfry.com/product/davidson-velvet-dining-chair-in-off-white-colour-2244165.html",
+    "name": "Davidson Velvet Dining Chair In Off White Colour",
+    "price_minor": 1269900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/d/a/1100x1210/davidson-velvet-dining-chair-in-off-white-colour-davidson-velvet-dining-chair-in-off-white-colour-zie40u.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:01.0526819Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2252756",
     "url": "https://www.pepperfry.com/product/miceli-leather-3-seater-sofa-in-olive-green-finish-2252756.html",
     "name": "Miceli Leather 3 Seater Sofa In Olive Green Finish",
-    "price_minor": 9299900,
+    "price_minor": 8999900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/m/i/1250x625/miceli-leather-3-seater-sofa-in-olive-green-finish-miceli-leather-3-seater-sofa-in-olive-green-finis-841oag.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:27.3741152Z"
+    "scraped_at": "2026-08-18T14:51:29.1341768Z"
   },
   {
     "source": "pepperfry",
@@ -2569,7 +4048,7 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:34.3050735Z"
   },
@@ -2582,9 +4061,9 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/l/1100x1210/albans-sheesham-wood-dining-chairs-in-provincial-teak-finish--set-of-2--albans-sheesham-wood-dining--fz7npe.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:39.6369642Z"
+    "scraped_at": "2026-08-18T14:51:53.0281226Z"
   },
   {
     "source": "pepperfry",
@@ -2595,35 +4074,61 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/o/d/1250x625/odessa-velvet-3-seater-sofa-in-mustard-yellow-color-odessa-velvet-3-seater-sofa-in-mustard-yellow-co-kwtyly.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:27.684314Z"
+    "scraped_at": "2026-08-18T14:51:29.7813133Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2253953",
     "url": "https://www.pepperfry.com/product/lille-sheesham-wood-dining-chair-in-provincial-teak-finish-2253953.html",
     "name": "Lille Sheesham Wood Dining Chair In Scratch Resistant Provincial Teak Finish",
-    "price_minor": 1169900,
+    "price_minor": 1129900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/l/i/1100x1210/lille-sheesham-wood-dining-chair-in-provincial-teak-finish-lille-sheesham-wood-dining-chair-in-provi-tkbm30.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:45.5856258Z"
+    "scraped_at": "2026-08-18T14:52:02.6242268Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2254006",
-    "url": "https://www.pepperfry.com/product/brookwood-sheesham-wood-dining-chair-in-provincial-teak-finish-2254006.html",
+    "url": "https://www.pepperfry.com/product/brookwood-sheesham-wood-dining-chair-in-provincial-teak-finish-2254006.html?type=clip\u0026pos=7\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Brookwood Sheesham Wood Dining Chair In Scratch Resistant Provincial Teak Finish",
-    "price_minor": 1219900,
+    "price_minor": 1179900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/b/r/1100x1210/brookwood-sheesham-wood-dining-chair-in-scratch-resistant-provincial-teak-finish-brookwood-sheesham--0skros.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:43.643356Z"
+    "scraped_at": "2026-08-18T14:51:58.3792573Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2254178",
+    "url": "https://www.pepperfry.com/product/ortrand-acacia-wood-dining-chair-in-natural-finish-set-of-2-2254178.html",
+    "name": "Ortrand Acacia Wood Dining Chair In Natural Finish ( Set of 2 )",
+    "price_minor": 2239900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/o/r/1100x1210/ortrand-acacia-wood-dining-chair-in-natural-finish-ortrand-acacia-wood-dining-chair-in-natural-finis-hn9sgu.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:05.0345953Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2257424",
+    "url": "https://www.pepperfry.com/product/stafford-sheesham-wood-dining-chair-in-provincial-teak-finish-set-of-2-2257424.html",
+    "name": "Stafford Sheesham Wood Dining Chair In Provincial Teak Finish (Set Of 2)",
+    "price_minor": 1319900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/s/t/1100x1210/stafford-sheesham-wood-dining-chair-in-provincial-teak-finish--set-of-2--stafford-sheesham-wood-dini-6kgwhq.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:03.6966365Z"
   },
   {
     "source": "pepperfry",
@@ -2634,9 +4139,22 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:29.3359129Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2265322",
+    "url": "https://www.pepperfry.com/product/paramount-fabric-3-seater-sofa-in-green-colour-2265322.html",
+    "name": "Paramount Fabric 3 Seater Sofa in Green Colour",
+    "price_minor": 1949000,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/p/a/1250x625/paramount-fabric-3-seater-sofa-in-green-colour-paramount-fabric-3-seater-sofa-in-green-colour-udrhql.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:34.8225345Z"
   },
   {
     "source": "pepperfry",
@@ -2647,9 +4165,9 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/s/e/1100x1210/sepang-malaysian--leatherette-dining-chair-v2-in-grey-colour-sepang-malaysian--leatherette-dining-ch-g82avq.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:44.9743391Z"
+    "scraped_at": "2026-08-18T14:52:01.7472325Z"
   },
   {
     "source": "pepperfry",
@@ -2660,9 +4178,22 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:44.3001649Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2281515",
+    "url": "https://www.pepperfry.com/product/elite-leatherette-dining-chair-in-brown-colour-2281515.html",
+    "name": "Elite Leatherette Dining Chair In Brown Colour",
+    "price_minor": 599900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/e/l/1100x1210/elite-leatherette-dining-chair-in-brown-colour-elite-leatherette-dining-chair-in-brown-colour-jfoogh.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:03.0314522Z"
   },
   {
     "source": "pepperfry",
@@ -2673,9 +4204,9 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/t/r/1100x1210/triest-solid-wood-coffee-table-in-walnut-finish-with-toronto-marble-top-triest-solid-wood-coffee-tab-kdctfh.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:31.9709782Z"
+    "scraped_at": "2026-08-18T14:51:38.3689767Z"
   },
   {
     "source": "pepperfry",
@@ -2686,22 +4217,22 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:35.2831555Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2302352",
-    "url": "https://www.pepperfry.com/product/aveline-chenille-fabric-3-seater-sofa-in-charcoal-grey-colour-2302352.html?type=clip\u0026pos=7\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/aveline-chenille-fabric-3-seater-sofa-in-charcoal-grey-colour-2302352.html?type=clip\u0026pos=7\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Aveline Chenille Fabric 3 Seater Sofa in Charcoal Grey Colour",
     "price_minor": 6049900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/v/1250x625/aveline-chenille-fabric-3-seater-sofa-in-charcoal-grey-colour-aveline-chenille-fabric-3-seater-sofa--vozuon.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:26.6169247Z"
+    "scraped_at": "2026-08-18T14:51:28.6820561Z"
   },
   {
     "source": "pepperfry",
@@ -2712,22 +4243,22 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:42.3448029Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2304669",
-    "url": "https://www.pepperfry.com/product/elegant-velvet-fabric-3-seater-sofa-in-teal-green-color-2304669.html?type=clip\u0026pos=4\u0026total_result=633\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
+    "url": "https://www.pepperfry.com/product/elegant-velvet-fabric-3-seater-sofa-in-teal-green-color-2304669.html?type=clip\u0026pos=4\u0026total_result=678\u0026fromId=320\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=320",
     "name": "Elegant Velvet Fabric 3 Seater Sofa In Teal Green Color",
     "price_minor": 3149900,
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/e/l/1250x625/elegant-velvet-fabric-3-seater-sofa-in-teal-green-color-elegant-velvet-fabric-3-seater-sofa-in-teal--foyaso.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:25.6672384Z"
+    "scraped_at": "2026-08-18T14:51:25.8750437Z"
   },
   {
     "source": "pepperfry",
@@ -2738,9 +4269,9 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/p/e/1100x1210/penio--coffee-table-in-columbian-walnut-finish-penio--coffee-table-in-columbian-walnut-finish-whz7pt.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:38.0048116Z"
+    "scraped_at": "2026-08-18T14:51:47.0243127Z"
   },
   {
     "source": "pepperfry",
@@ -2751,9 +4282,35 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:38.6182322Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2314649",
+    "url": "https://www.pepperfry.com/product/reed-sheesham-wood-dining-chair-set-of-2-in-provincial-teak-finish-2314649.html",
+    "name": "Reed Sheesham Wood Dining Chair (Set of 2) in Provincial Teak Finish",
+    "price_minor": 1319900,
+    "currency": "INR",
+    "category": "dining_chairs",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/r/e/1100x1210/reed-sheesham-wood-dining-chair--set-of-2--in-provincial-teak-finish-reed-sheesham-wood-dining-chair-prhhwh.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:52:04.3619847Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2316671",
+    "url": "https://www.pepperfry.com/product/tate-mango-wood-coffee-table-in-tubbaq-finish-with-brown-tinted-glass-top-2316671.html?type=clip\u0026pos=8\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
+    "name": "Tate Mango Wood Coffee Table In Tubbaq Finish",
+    "price_minor": 1219900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/t/a/1100x1210/tate-mango-wood-coffee-table-in-tubbaq-finish-with-brown-tinted-glass-top-tate-mango-wood-coffee-tab-8iirfd.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:45.0318082Z"
   },
   {
     "source": "pepperfry",
@@ -2764,9 +4321,9 @@
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/c/o/1100x1210/coral-cane-dining-chair-in-sheesham-wood-finish-coral-cane-dining-chair-in-sheesham-wood-finish-930av9.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:42.9698429Z"
+    "scraped_at": "2026-08-18T14:52:00.3629182Z"
   },
   {
     "source": "pepperfry",
@@ -2777,9 +4334,22 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": false,
     "scraped_at": "2026-08-14T11:16:28.4576011Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2322790",
+    "url": "https://www.pepperfry.com/product/imperial-nest-signature-collection-premium-designer-centre-table-in-noce-walnut-n-2322790.html?type=clip\u0026pos=4\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
+    "name": "Noble Residence Centre Table In Noce Walnut Natural Finish",
+    "price_minor": 449900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/i/m/1100x1210/imperial-nest-signature-collection-premium-designer-centre-table-in-noce-walnut-natural-finish-imper-nhp3dw.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:42.5352462Z"
   },
   {
     "source": "pepperfry",
@@ -2790,48 +4360,48 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:36.6217198Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2322810",
-    "url": "https://www.pepperfry.com/product/imperial-nest-signature-collection-premium-centre-table-in-noce-walnut-natural-fi-2322810.html",
+    "url": "https://www.pepperfry.com/product/imperial-nest-signature-collection-premium-centre-table-in-noce-walnut-natural-fi-2322810.html?type=clip\u0026pos=3\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
     "name": "Walnut Crown Designer Centre Table In Noce Walnut Natural Finish",
-    "price_minor": 709900,
+    "price_minor": 729900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/i/m/1100x1210/imperial-nest-signature-collection-premium-centre-table-in-noce-walnut-natural-finish-imperial-nest--ysefkt.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:38.3057103Z"
+    "scraped_at": "2026-08-18T14:51:41.7021101Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2331600",
-    "url": "https://www.pepperfry.com/product/henro-dining-chair-in-leatherite-fabric-with-tan-and-grey-colour-2331600.html?type=clip\u0026pos=2\u0026total_result=303\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
+    "url": "https://www.pepperfry.com/product/henro-dining-chair-in-leatherite-fabric-with-tan-and-grey-colour-2331600.html?type=clip\u0026pos=4\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Henro Leatherette Fabric Dining Chairs In  Brown Colour (Set of 2)",
     "price_minor": 1799900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/h/e/1100x1210/henro-dining-chair-in-leatherite-fabric-with-tan-and-grey-colour-henro-dining-chair-in-leatherite-fa-knsdkc.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:40.6155433Z"
+    "scraped_at": "2026-08-18T14:51:56.3668494Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2331605",
-    "url": "https://www.pepperfry.com/product/etan-velvet-fabric-dining-chair-in-pink-colour-set-of-2-2331605.html?type=clip\u0026pos=4\u0026total_result=303\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
+    "url": "https://www.pepperfry.com/product/etan-velvet-fabric-dining-chair-in-pink-colour-set-of-2-2331605.html?type=clip\u0026pos=5\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Etan Velvet Fabric Dining Chair  In Pink Colour (Set of 2)",
     "price_minor": 1799900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/e/t/1100x1210/etan-dining-chair-with-velvet-fabric-in-brown-colour-etan-dining-chair-with-velvet-fabric-in-brown-c-kddlqj.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:41.2938111Z"
+    "scraped_at": "2026-08-18T14:51:57.0530012Z"
   },
   {
     "source": "pepperfry",
@@ -2842,22 +4412,48 @@
     "currency": "INR",
     "category": "sofas",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:31.0298616Z"
   },
   {
     "source": "pepperfry",
+    "external_id": "2331953",
+    "url": "https://www.pepperfry.com/product/aura-3-seater-sofa-in-onion-pink-color-2331953.html",
+    "name": "Aura 3 Seater Sofa In Onion Pink Color",
+    "price_minor": 2179900,
+    "currency": "INR",
+    "category": "sofas",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/a/u/1250x625/aura-velvet-fabric-3-seater-sofa-in-onion-pink-aura-velvet-fabric-3-seater-sofa-in-onion-pink-dnjckk.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:35.1879607Z"
+  },
+  {
+    "source": "pepperfry",
+    "external_id": "2334440",
+    "url": "https://www.pepperfry.com/product/leonora-sheesham-wood-coffee-table-in-honey-oak-finish-with-porcelain-top-2334440.html?type=clip\u0026pos=6\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
+    "name": "Leonora Sheesham Wood Coffee Table in Honey Oak Finish With Quartz Top",
+    "price_minor": 2639900,
+    "currency": "INR",
+    "category": "coffee_tables",
+    "styles": [],
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/l/e/1100x1210/leonora-sheesham-wood-coffee-table-in-honey-oak-finish-with-porcelain-top-leonora-sheesham-wood-coff-id0pjx.jpg",
+    "in_stock": true,
+    "scraped_at": "2026-08-18T14:51:44.6533839Z"
+  },
+  {
+    "source": "pepperfry",
     "external_id": "2334443",
-    "url": "https://www.pepperfry.com/product/limoges-mango-wood-dining-chair-in-tubbaq-finish-set-of-2-2334443.html?type=clip\u0026pos=1\u0026total_result=303\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
+    "url": "https://www.pepperfry.com/product/limoges-mango-wood-dining-chair-in-tubbaq-finish-set-of-2-2334443.html?type=clip\u0026pos=1\u0026total_result=306\u0026fromId=1880\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1880",
     "name": "Limoges Mango Wood Dining Chair In Tubbaq Finish ( Set of 2 )",
     "price_minor": 2029900,
     "currency": "INR",
     "category": "dining_chairs",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/l/i/1100x1210/limoges-mango-wood-dining-chair-in-tubbaq-finish---set-of-2---limoges-mango-wood-dining-chair-in-tub-cfyrde.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:40.2831719Z"
+    "scraped_at": "2026-08-18T14:51:54.8407807Z"
   },
   {
     "source": "pepperfry",
@@ -2868,22 +4464,22 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:35.62303Z"
   },
   {
     "source": "pepperfry",
     "external_id": "2339556",
-    "url": "https://www.pepperfry.com/product/siramika-sheesham-wood-large-coffee-table-in-honey-oak-finish-2339556.html?type=clip\u0026pos=3\u0026total_result=603\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
+    "url": "https://www.pepperfry.com/product/siramika-sheesham-wood-large-coffee-table-in-honey-oak-finish-2339556.html?type=clip\u0026pos=2\u0026total_result=610\u0026fromId=1823\u0026sort=sorting_score%7Cdesc\u0026filter=%7C\u0026cat=1823",
     "name": "Siramika Sheesham Wood Large Coffee Table In Honey Oak Finish",
     "price_minor": 1929900,
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "https://ii1.pepperfry.com/media/catalog/product/s/i/1100x1210/siramika-sheesham-wood-large-coffee-table-in-honey-oak-finish-siramika-sheesham-wood-large-coffee-ta-demxqz.jpg",
     "in_stock": true,
-    "scraped_at": "2026-08-14T11:16:33.6223605Z"
+    "scraped_at": "2026-08-18T14:51:41.0690672Z"
   },
   {
     "source": "pepperfry",
@@ -2894,7 +4490,7 @@
     "currency": "INR",
     "category": "coffee_tables",
     "styles": [],
-    "image_url": "https://ii1.pepperfry.com/assets/w22-pf-logo.svg",
+    "image_url": "",
     "in_stock": true,
     "scraped_at": "2026-08-14T11:16:33.9904493Z"
   }

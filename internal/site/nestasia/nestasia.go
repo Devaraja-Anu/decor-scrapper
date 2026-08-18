@@ -125,57 +125,130 @@ func (n *Nestasia) FetchProduct(ctx context.Context, ref product.ProductRef) (pr
 		return product.Product{}, fmt.Errorf("unable to extract product handle from URL %q", ref.URL)
 	}
 
-	reqURL := fmt.Sprintf("%s/products/%s.json", n.baseURL, url.PathEscape(handle))
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reqURL, nil)
+	// Primary: Hit Storefront AJAX endpoint /products/{handle}.js for live stock availability
+	reqURL := fmt.Sprintf("%s/products/%s.js", n.baseURL, url.PathEscape(handle))
+	resp, err := n.doGetWithRetry(ctx, reqURL)
 	if err != nil {
-		return product.Product{}, fmt.Errorf("creating product request for %q: %w", handle, err)
-	}
-	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
-	req.Header.Set("Accept", "application/json, text/plain, */*")
-	req.Header.Set("Accept-Language", "en-US,en;q=0.9")
-
-	resp, err := n.httpClient.Do(req)
-	if err != nil {
-		return product.Product{}, fmt.Errorf("fetching product %q: %w", handle, err)
+		// Fallback to .json endpoint if .js encountered an error
+		return n.fetchProductJSONFallback(ctx, handle, ref)
 	}
 	defer resp.Body.Close()
+
+	// If .js endpoint returns 404, fallback to .json endpoint
+	if resp.StatusCode == http.StatusNotFound {
+		return n.fetchProductJSONFallback(ctx, handle, ref)
+	}
 
 	if resp.StatusCode != http.StatusOK {
 		return product.Product{}, fmt.Errorf("fetching product %q returned status %d", handle, resp.StatusCode)
 	}
 
-	var payload shopifyProductResponse
+	var payload rawShopifyProduct
 	if err := json.NewDecoder(resp.Body).Decode(&payload); err != nil {
 		return product.Product{}, fmt.Errorf("decoding product %q response: %w", handle, err)
 	}
 
-	return n.normalizeProduct(payload.Product, ref)
+	return n.normalizeProduct(payload, ref)
 }
 
-func (n *Nestasia) normalizeProduct(sp shopifyProduct, ref product.ProductRef) (product.Product, error) {
+func (n *Nestasia) fetchProductJSONFallback(ctx context.Context, handle string, ref product.ProductRef) (product.Product, error) {
+	reqURL := fmt.Sprintf("%s/products/%s.json", n.baseURL, url.PathEscape(handle))
+	resp, err := n.doGetWithRetry(ctx, reqURL)
+	if err != nil {
+		return product.Product{}, fmt.Errorf("fetching fallback product %q: %w", handle, err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return product.Product{}, fmt.Errorf("fetching fallback product %q returned status %d", handle, resp.StatusCode)
+	}
+
+	var wrapper struct {
+		Product rawShopifyProduct `json:"product"`
+	}
+	if err := json.NewDecoder(resp.Body).Decode(&wrapper); err != nil {
+		return product.Product{}, fmt.Errorf("decoding fallback product %q response: %w", handle, err)
+	}
+
+	return n.normalizeProduct(wrapper.Product, ref)
+}
+
+func (n *Nestasia) doGetWithRetry(ctx context.Context, reqURL string) (*http.Response, error) {
+	const maxRetries = 3
+	backoff := 1500 * time.Millisecond
+
+	for attempt := 0; attempt < maxRetries; attempt++ {
+		req, err := http.NewRequestWithContext(ctx, http.MethodGet, reqURL, nil)
+		if err != nil {
+			return nil, err
+		}
+		req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
+		req.Header.Set("Accept", "application/json, text/plain, */*")
+		req.Header.Set("Accept-Language", "en-US,en;q=0.9")
+
+		resp, err := n.httpClient.Do(req)
+		if err != nil {
+			return nil, err
+		}
+
+		if resp.StatusCode == http.StatusTooManyRequests {
+			resp.Body.Close()
+			retryAfter := resp.Header.Get("Retry-After")
+			waitDuration := backoff
+			if s, err := strconv.Atoi(retryAfter); err == nil && s > 0 {
+				waitDuration = time.Duration(s) * time.Second
+			}
+			select {
+			case <-ctx.Done():
+				return nil, ctx.Err()
+			case <-time.After(waitDuration):
+				backoff *= 2
+				continue
+			}
+		}
+
+		return resp, nil
+	}
+
+	return nil, fmt.Errorf("exceeded max retries for %q due to rate limiting (429)", reqURL)
+}
+
+func (n *Nestasia) normalizeProduct(sp rawShopifyProduct, ref product.ProductRef) (product.Product, error) {
 	var priceMinor int64
 	var inStock bool
 
+	// 1. Stock Status: Prefer product-level availability or any available variant
+	if sp.Available != nil && *sp.Available {
+		inStock = true
+	}
+	for _, v := range sp.Variants {
+		if v.Available != nil && *v.Available {
+			inStock = true
+			break
+		}
+	}
+
+	// 2. Price Parsing
 	if len(sp.Variants) > 0 {
 		var err error
-		priceMinor, err = parsePriceMinor(sp.Variants[0].Price)
+		priceMinor, err = parseFlexiblePriceMinor(sp.Variants[0].Price)
 		if err != nil {
-			return product.Product{}, fmt.Errorf("parsing price for product %d: %w", sp.ID, err)
+			return product.Product{}, fmt.Errorf("parsing variant price for product %d: %w", sp.ID, err)
 		}
-		for _, v := range sp.Variants {
-			if v.Available {
-				inStock = true
-				break
-			}
+	}
+	if priceMinor == 0 && sp.Price != nil {
+		var err error
+		priceMinor, err = parseFlexiblePriceMinor(sp.Price)
+		if err != nil {
+			return product.Product{}, fmt.Errorf("parsing product price for product %d: %w", sp.ID, err)
 		}
 	}
 
-	var imageURL string
-	if len(sp.Images) > 0 {
-		imageURL = sp.Images[0].Src
-	}
+	// 3. Image URL
+	imageURL := extractImageURL(sp)
 
-	styles := extractStyles(sp.Tags)
+	// 4. Styles: Extracted strictly from structured Tags and Options (no free-text guessing)
+	styles := extractStyles(sp.Tags, sp.Options)
 
 	canonicalURL := ref.URL
 	if canonicalURL == "" {
@@ -195,6 +268,35 @@ func (n *Nestasia) normalizeProduct(sp shopifyProduct, ref product.ProductRef) (
 		InStock:    inStock,
 		ScrapedAt:  time.Now().UTC(),
 	}, nil
+}
+
+func extractImageURL(sp rawShopifyProduct) string {
+	if len(sp.Images) > 0 {
+		first := sp.Images[0]
+		switch v := first.(type) {
+		case string:
+			return normalizeImageURL(v)
+		case map[string]any:
+			if src, ok := v["src"].(string); ok {
+				return normalizeImageURL(src)
+			}
+		}
+	}
+	if sp.FeaturedImage != "" {
+		return normalizeImageURL(sp.FeaturedImage)
+	}
+	return ""
+}
+
+func normalizeImageURL(raw string) string {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return ""
+	}
+	if strings.HasPrefix(raw, "//") {
+		return "https:" + raw
+	}
+	return raw
 }
 
 // TagsList supports unmarshaling both JSON array of strings and comma-delimited strings.
@@ -225,32 +327,32 @@ func (t *TagsList) UnmarshalJSON(data []byte) error {
 }
 
 type shopifyCollectionResponse struct {
-	Products []shopifyProduct `json:"products"`
+	Products []rawShopifyProduct `json:"products"`
 }
 
-type shopifyProductResponse struct {
-	Product shopifyProduct `json:"product"`
+type rawShopifyProduct struct {
+	ID            int64               `json:"id"`
+	Title         string              `json:"title"`
+	Handle        string              `json:"handle"`
+	Tags          TagsList            `json:"tags"`
+	Available     *bool               `json:"available,omitempty"`
+	Price         any                 `json:"price,omitempty"`
+	Variants      []rawShopifyVariant `json:"variants"`
+	Images        []any               `json:"images"`
+	FeaturedImage string              `json:"featured_image,omitempty"`
+	Options       []shopifyOption     `json:"options"`
 }
 
-type shopifyProduct struct {
-	ID       int64            `json:"id"`
-	Title    string           `json:"title"`
-	Handle   string           `json:"handle"`
-	Tags     TagsList         `json:"tags"`
-	Variants []shopifyVariant `json:"variants"`
-	Images   []shopifyImage   `json:"images"`
-}
-
-type shopifyVariant struct {
+type rawShopifyVariant struct {
 	ID        int64  `json:"id"`
 	Title     string `json:"title"`
-	Price     string `json:"price"`
-	Available bool   `json:"available"`
+	Price     any    `json:"price"`
+	Available *bool  `json:"available,omitempty"`
 }
 
-type shopifyImage struct {
-	ID  int64  `json:"id"`
-	Src string `json:"src"`
+type shopifyOption struct {
+	Name   string   `json:"name"`
+	Values []string `json:"values"`
 }
 
 func extractHandle(rawURL string) string {
@@ -271,35 +373,60 @@ func extractHandle(rawURL string) string {
 	return path
 }
 
-func parsePriceMinor(priceStr string) (int64, error) {
-	priceStr = strings.TrimSpace(priceStr)
-	if priceStr == "" {
+func parseFlexiblePriceMinor(val any) (int64, error) {
+	if val == nil {
 		return 0, nil
 	}
-	f, err := strconv.ParseFloat(priceStr, 64)
-	if err != nil {
-		return 0, fmt.Errorf("invalid price string %q: %w", priceStr, err)
+	switch v := val.(type) {
+	case float64:
+		return int64(math.Round(v)), nil
+	case int64:
+		return v, nil
+	case int:
+		return int64(v), nil
+	case string:
+		v = strings.TrimSpace(v)
+		if v == "" {
+			return 0, nil
+		}
+		if strings.Contains(v, ".") {
+			f, err := strconv.ParseFloat(v, 64)
+			if err != nil {
+				return 0, fmt.Errorf("invalid float price string %q: %w", v, err)
+			}
+			return int64(math.Round(f * 100)), nil
+		}
+		num, err := strconv.ParseInt(v, 10, 64)
+		if err != nil {
+			return 0, fmt.Errorf("invalid int price string %q: %w", v, err)
+		}
+		return num * 100, nil
+	default:
+		return 0, fmt.Errorf("unsupported price type %T", val)
 	}
-	return int64(math.Round(f * 100)), nil
 }
 
-func extractStyles(tags []string) []string {
+func extractStyles(tags []string, options []shopifyOption) []string {
 	matched := make(map[string]struct{})
+
+	// 1. Structured Tags (including style_<StyleName> prefixes and synonyms)
 	for _, rawTag := range tags {
 		tag := strings.ToLower(strings.TrimSpace(rawTag))
-		switch {
-		case strings.Contains(tag, "bohemian") || tag == "boho":
-			matched["bohemian"] = struct{}{}
-		case strings.Contains(tag, "contemporary"):
-			matched["contemporary"] = struct{}{}
-		case strings.Contains(tag, "glam") || strings.Contains(tag, "glamour"):
-			matched["glam"] = struct{}{}
-		case strings.Contains(tag, "minimalist") || strings.Contains(tag, "minimal"):
-			matched["minimalist"] = struct{}{}
-		case strings.Contains(tag, "modern"):
-			matched["modern"] = struct{}{}
-		case strings.Contains(tag, "scandinavian") || tag == "scandi":
-			matched["scandinavian"] = struct{}{}
+		tag = strings.TrimPrefix(tag, "style_")
+		tag = strings.TrimPrefix(tag, "style-")
+		matchStyleString(tag, matched)
+	}
+
+	// 2. Structured Options (e.g. Option name "Style", "Theme", "Aesthetic")
+	for _, opt := range options {
+		optName := strings.ToLower(strings.TrimSpace(opt.Name))
+		if strings.Contains(optName, "style") || strings.Contains(optName, "theme") || strings.Contains(optName, "aesthetic") {
+			for _, val := range opt.Values {
+				v := strings.ToLower(strings.TrimSpace(val))
+				v = strings.TrimPrefix(v, "style_")
+				v = strings.TrimPrefix(v, "style-")
+				matchStyleString(v, matched)
+			}
 		}
 	}
 
@@ -314,4 +441,21 @@ func extractStyles(tags []string) []string {
 		}
 	}
 	return styles
+}
+
+func matchStyleString(val string, matched map[string]struct{}) {
+	switch {
+	case strings.Contains(val, "bohemian") || val == "boho":
+		matched["bohemian"] = struct{}{}
+	case strings.Contains(val, "contemporary"):
+		matched["contemporary"] = struct{}{}
+	case strings.Contains(val, "glam") || strings.Contains(val, "glamour") || strings.Contains(val, "luxe"):
+		matched["glam"] = struct{}{}
+	case strings.Contains(val, "minimalist") || val == "minimal" || val == "minimalism":
+		matched["minimalist"] = struct{}{}
+	case strings.Contains(val, "modern") || strings.Contains(val, "mid-century"):
+		matched["modern"] = struct{}{}
+	case strings.Contains(val, "scandinavian") || val == "scandi" || strings.Contains(val, "nordic"):
+		matched["scandinavian"] = struct{}{}
+	}
 }

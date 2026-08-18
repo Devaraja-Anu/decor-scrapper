@@ -24,11 +24,10 @@ Nestasia is configured for three high-impact categories that materially transfor
 - Sends standard browser headers (`User-Agent`, `Accept`, `Sec-Ch-Ua`) for WAF compatibility.
 
 ### Ingestion & Normalization (`FetchProduct`)
-- Fetches single item details via `/products/{handle}.json`.
-- **`PriceMinor`**: Converts rupees string (`"4999.00"`) into integer paise (`499900`) with rounding safeguards.
-- **`InStock`**: Evaluates variant inventory availability.
-- **`Styles`**: Extracts and normalizes style facets against our canonical taxonomy:
-  `["bohemian", "contemporary", "glam", "minimalist", "modern", "scandinavian"]`
+- Fetches single item details via Storefront AJAX endpoint `/products/{handle}.js` (with automatic fallback to `/products/{handle}.json`).
+- **`InStock`**: Retrieves live, accurate variant `available` boolean status emitted by the Storefront endpoint (avoiding silent omission in public JSON endpoints).
+- **`PriceMinor`**: Converts price into integer paise (`499900`) with float/int rounding safeguards.
+- **`Styles`**: Extracts and normalizes style facets strictly from structured `tags` (supporting `style_<Name>` prefixes like `style_Contemporary`, `style_Modern` and direct synonyms `boho`, `scandi`, `nordic`, `luxe`, `minimal`) and structured `options`, avoiding false-positive free-text guesses.
 - **`TagsList`**: Flexible JSON unmarshaler handling both array `["tag1", "tag2"]` and comma-delimited `"tag1, tag2"` Shopify formats.
 
 ---

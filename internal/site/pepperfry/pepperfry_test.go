@@ -268,3 +268,108 @@ func TestPepperfry_Errors(t *testing.T) {
 		t.Errorf("expected error for 404 fetch, got nil")
 	}
 }
+
+func TestPepperfry_ImageExtraction_ExcludesLogo(t *testing.T) {
+	// HTML with only logo and icon assets, no genuine product image
+	htmlWithLogoOnly := `<!DOCTYPE html>
+<html>
+<head>
+  <meta property="og:image" content="https://ii1.pepperfry.com/assets/w22-pf-logo.svg" />
+  <meta name="twitter:image" content="https://ii1.pepperfry.com/assets/logo.png" />
+  <meta property="product:retailer_item_id" content="999888" />
+  <title>Test Sofa</title>
+</head>
+<body>
+  <h1>Test Sofa</h1>
+  <div class="v-product__price"><span class="v-product__price--current">₹15,000</span></div>
+  <img src="https://ii1.pepperfry.com/assets/header-icon.svg" />
+</body>
+</html>`
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(htmlWithLogoOnly))
+	}))
+	defer server.Close()
+
+	client := pepperfry.New(
+		pepperfry.WithBaseURL(server.URL),
+		pepperfry.WithHTTPClient(server.Client()),
+	)
+
+	prod, err := client.FetchProduct(context.Background(), product.ProductRef{
+		URL:      server.URL + "/product/test-sofa-999888.html",
+		Category: "sofas",
+	})
+	if err != nil {
+		t.Fatalf("unexpected fetch error: %v", err)
+	}
+
+	// Must return empty string rather than site logo
+	if prod.ImageURL != "" {
+		t.Errorf("expected empty image URL when only logo/assets present, got %q", prod.ImageURL)
+	}
+}
+
+func TestPepperfry_ImageExtraction_JSONLDAndLazyLoad(t *testing.T) {
+	// HTML with Schema.org JSON-LD @graph containing Product image and lazy-loaded gallery
+	htmlJSONLD := `<!DOCTYPE html>
+<html>
+<head>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Pepperfry"
+      },
+      {
+        "@type": "Product",
+        "name": "Modern Leather Armchair",
+        "image": ["https://ii1.pepperfry.com/media/catalog/product/m/o/modern-leather-armchair.jpg"],
+        "offers": {
+          "@type": "Offer",
+          "price": "18999",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    ]
+  }
+  </script>
+  <meta property="product:retailer_item_id" content="777666" />
+  <title>Modern Leather Armchair</title>
+</head>
+<body>
+  <h1>Modern Leather Armchair</h1>
+  <div class="v-product__price"><span class="v-product__price--current">₹18,999</span></div>
+</body>
+</html>`
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/html")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(htmlJSONLD))
+	}))
+	defer server.Close()
+
+	client := pepperfry.New(
+		pepperfry.WithBaseURL(server.URL),
+		pepperfry.WithHTTPClient(server.Client()),
+	)
+
+	prod, err := client.FetchProduct(context.Background(), product.ProductRef{
+		URL:      server.URL + "/product/modern-leather-armchair-777666.html",
+		Category: "chairs",
+	})
+	if err != nil {
+		t.Fatalf("unexpected fetch error: %v", err)
+	}
+
+	expectedImg := "https://ii1.pepperfry.com/media/catalog/product/m/o/modern-leather-armchair.jpg"
+	if prod.ImageURL != expectedImg {
+		t.Errorf("expected JSON-LD product image %q, got %q", expectedImg, prod.ImageURL)
+	}
+}

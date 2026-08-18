@@ -397,22 +397,14 @@ func (p *Pepperfry) extractInStock(doc *goquery.Document) bool {
 }
 
 func (p *Pepperfry) extractImage(doc *goquery.Document) string {
-	// Strategy A: JSON-LD Schema.org Product image
+	// Strategy A: JSON-LD Schema.org Product image first (stable SEO contract)
 	var ldImg string
 	doc.Find("script[type='application/ld+json']").EachWithBreak(func(_ int, s *goquery.Selection) bool {
-		var parsed map[string]any
+		var parsed any
 		if err := json.Unmarshal([]byte(s.Text()), &parsed); err == nil {
-			if parsed["@type"] == "Product" {
-				if img, ok := parsed["image"].(string); ok && isProductImage(img) {
-					ldImg = img
-					return false
-				}
-				if imgs, ok := parsed["image"].([]any); ok && len(imgs) > 0 {
-					if imgStr, ok := imgs[0].(string); ok && isProductImage(imgStr) {
-						ldImg = imgStr
-						return false
-					}
-				}
+			if img := extractProductImageFromJSONLD(parsed); img != "" && isProductImage(img) {
+				ldImg = img
+				return false
 			}
 		}
 		return true
@@ -421,12 +413,21 @@ func (p *Pepperfry) extractImage(doc *goquery.Document) string {
 		return p.resolveURL(ldImg)
 	}
 
-	// Strategy B: DOM gallery and product image tags
+	// Strategy B: DOM gallery and product image tags (inspect lazy-load and src attributes)
 	var domImg string
-	doc.Find("img[src*='/media/catalog/product/'], img[data-src*='/media/catalog/product/'], img.v-product-gallery__image, img.product-image").EachWithBreak(func(_ int, s *goquery.Selection) bool {
-		src := s.AttrOr("src", "")
+	doc.Find("img.v-product-gallery__image, img.vipImage, img.product-image, img[data-src*='/media/catalog/product/'], img[src*='/media/catalog/product/'], .product-gallery img, .vip-gallery img").EachWithBreak(func(_ int, s *goquery.Selection) bool {
+		src := s.AttrOr("data-src", "")
 		if !isProductImage(src) {
-			src = s.AttrOr("data-src", "")
+			src = s.AttrOr("data-img", "")
+		}
+		if !isProductImage(src) {
+			src = s.AttrOr("data-zoom-image", "")
+		}
+		if !isProductImage(src) {
+			src = s.AttrOr("data-original", "")
+		}
+		if !isProductImage(src) {
+			src = s.AttrOr("src", "")
 		}
 		if isProductImage(src) {
 			domImg = src
@@ -438,7 +439,7 @@ func (p *Pepperfry) extractImage(doc *goquery.Document) string {
 		return p.resolveURL(domImg)
 	}
 
-	// Strategy C: Meta tags if valid product photo
+	// Strategy C: Meta tags only if genuine product photo
 	if ogImg := doc.Find("meta[property='og:image']").AttrOr("content", ""); isProductImage(ogImg) {
 		return p.resolveURL(ogImg)
 	}
@@ -446,15 +447,73 @@ func (p *Pepperfry) extractImage(doc *goquery.Document) string {
 		return p.resolveURL(twImg)
 	}
 
+	// Never fall back to a site asset/logo; return empty string if genuine product image is absent
+	return ""
+}
+
+func extractProductImageFromJSONLD(data any) string {
+	switch v := data.(type) {
+	case map[string]any:
+		typeVal, _ := v["@type"].(string)
+		if strings.EqualFold(typeVal, "Product") {
+			if imgVal, exists := v["image"]; exists {
+				if imgStr := parseImageField(imgVal); imgStr != "" && isProductImage(imgStr) {
+					return imgStr
+				}
+			}
+		}
+		if graph, ok := v["@graph"].([]any); ok {
+			for _, item := range graph {
+				if img := extractProductImageFromJSONLD(item); img != "" {
+					return img
+				}
+			}
+		}
+	case []any:
+		for _, item := range v {
+			if img := extractProductImageFromJSONLD(item); img != "" {
+				return img
+			}
+		}
+	}
+	return ""
+}
+
+func parseImageField(imgVal any) string {
+	switch v := imgVal.(type) {
+	case string:
+		return v
+	case []any:
+		if len(v) > 0 {
+			return parseImageField(v[0])
+		}
+	case []string:
+		if len(v) > 0 {
+			return v[0]
+		}
+	case map[string]any:
+		if urlStr, ok := v["url"].(string); ok {
+			return urlStr
+		}
+		if contentURL, ok := v["contentUrl"].(string); ok {
+			return contentURL
+		}
+	}
 	return ""
 }
 
 func isProductImage(urlStr string) bool {
+	urlStr = strings.TrimSpace(urlStr)
 	if urlStr == "" {
 		return false
 	}
 	lower := strings.ToLower(urlStr)
-	if strings.Contains(lower, "logo") || strings.HasSuffix(lower, ".svg") {
+	if strings.Contains(lower, "logo") ||
+		strings.Contains(lower, "pf-logo") ||
+		strings.Contains(lower, "/assets/") ||
+		strings.Contains(lower, "placeholder") ||
+		strings.Contains(lower, "icon") ||
+		strings.HasSuffix(lower, ".svg") {
 		return false
 	}
 	return true

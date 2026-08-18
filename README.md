@@ -95,10 +95,12 @@ go test -v ./...
 
 ---
 
-## 📖 Milestone Documentation
+## 📖 Documentation & Architecture
 
 1. [Milestone 1: Domain Model & Storage Layer](docs/01-domain-and-storage.md)
 2. [Milestone 2: Nestasia Site Scraper](docs/02-nestasia-scraper.md)
 3. [Milestone 3: Pepperfry Site Scraper](docs/03-pepperfry-scraper.md)
 4. [Milestone 4: Concurrency Pipeline & Rate Limiting](docs/04-pipeline-concurrency.md)
 5. [Milestone 5: CLI Entry Point & End-to-End Orchestration](docs/05-cli-and-e2e.md)
+6. [Programming Concepts & Architecture Guide](docs/concepts.md) 🧠
+

@@ -33,10 +33,10 @@ Pepperfry supplies the foundational furniture layer for the room:
   3. *DOM Selectors*: Matches `.v-product__price--current`, `.product-price`, `.v-product__price`, `.offer-price`, and `[data-price]`.
   4. *Embedded Script JSON*: RegEx fallback across inline script tags for `"offer_price"`, `"selling_price"`, etc.
   5. *Paise Conversion*: Converts numeric string into integer paise (`5049900` for ₹50,499.00) with float-rounding safety.
-- **`ImageURL`**: Multi-strategy image resolution:
-  1. *Schema.org JSON-LD*: Extracts `image` URL.
-  2. *DOM Gallery*: Matches `img[src*='/media/catalog/product/']`, `img.v-product-gallery__image`, `img.product-image`, or `[data-src]`.
-  3. *Logo Filtering*: Explicitly filters out default site logos (`w22-pf-logo.svg`) to guarantee real product photos.
+- **`ImageURL`**: Sequenced image resolution:
+  1. *Schema.org JSON-LD*: Prioritizes `<script type="application/ld+json">` `Product` image first (stable SEO contract).
+  2. *DOM Gallery*: Inspects lazy-loading and gallery tags (`img.v-product-gallery__image`, `img.vipImage`, `data-src`, `data-img`, `data-zoom-image`).
+  3. *Strict Filtering*: Explicitly rejects site assets, SVG, icons, placeholders, and logos (`w22-pf-logo.svg`, `/assets/`, `.svg`). Returns `""` (empty string) if no genuine photo is present rather than displaying a false logo.
 - **`InStock`**: Evaluates Schema.org JSON-LD `offers.availability` (`InStock` vs. `OutOfStock`) and DOM out-of-stock badges (`.v-product__out-of-stock-msg`, `.out-of-stock`, `.sold-out`).
 - **`Styles`**: Explicitly set to empty `[]string{}` per architectural decision in [decisions.md](file:///C:/Programming/Projects/decor-scrapper/decisions.md), preserving data integrity and leaving style classification to the downstream LLM layer.
 
@@ -50,4 +50,6 @@ Verified offline against static HTML golden fixtures in [`internal/site/pepperfr
 - `TestPepperfry_FetchProduct_CoffeeTable`: Checks teak coffee table attributes.
 - `TestPepperfry_FetchProduct_DiningChair_OutOfStock`: Checks sold-out status detection.
 - `TestPepperfry_Errors`: Verifies proper error bubbling on 500 status and 404 targets.
+- `TestPepperfry_ImageExtraction_ExcludesLogo`: Verifies that site logos and assets are never returned.
+- `TestPepperfry_ImageExtraction_JSONLDAndLazyLoad`: Verifies JSON-LD graph extraction and gallery image fallback.
 
