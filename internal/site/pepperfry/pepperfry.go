@@ -66,12 +66,16 @@ func (p *Pepperfry) Name() string {
 	return siteName
 }
 
-// Categories returns the core furniture categories for Pepperfry.
+// Categories returns the core furniture and fixture categories for Pepperfry.
 func (p *Pepperfry) Categories() []product.Category {
 	return []product.Category{
 		{Slug: "category/3-seater-sofas", Name: "sofas"},
 		{Slug: "category/coffee-tables", Name: "coffee_tables"},
 		{Slug: "category/dining-chairs", Name: "dining_chairs"},
+		{Slug: "category/queen-size-beds", Name: "beds"},
+		{Slug: "category/bedside-tables", Name: "side_tables"},
+		{Slug: "category/book-shelves", Name: "storage_shelving"},
+		{Slug: "category/lamps-lighting", Name: "lighting"},
 	}
 }
 

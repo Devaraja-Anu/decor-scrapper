@@ -6,13 +6,16 @@ This milestone implements the [`site.Site`](file:///C:/Programming/Projects/deco
 ---
 
 ## 1. High-Impact Target Categories
-Nestasia is configured for three high-impact categories that materially transform room aesthetics:
+Nestasia is configured for six high-impact categories that materially transform room aesthetics:
 
 | URL Slug | Normalized Name | Visual & Spatial Room Impact |
 |---|---|---|
 | `rugs` | `rugs` | Anchors furniture arrangements, introduces texture/palette |
-| `wall-decor` | `wall_decor` | Fills vertical space with mirrors, wall art, and wall hangings |
 | `lamps-lighting` | `lighting` | Establishes ambient mood, warm lighting, and accent fixtures |
+| `wall-decor` | `artwork_paintings` | Fills vertical space with mirrors, wall art, and wall hangings |
+| `curtains` | `curtains` | Frames windows, controls daylight, soft textile layering |
+| `planters` | `plants_planters` | Biophilic accents, greenery, and tabletop/floor pots |
+| `storage-organizers` | `storage_shelving` | Functional storage, wall shelves, and aesthetic baskets |
 
 ---
 

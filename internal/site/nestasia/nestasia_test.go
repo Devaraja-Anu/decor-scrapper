@@ -2,7 +2,6 @@ package nestasia_test
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"net/http"
 	"net/http/httptest"
@@ -10,7 +9,6 @@ import (
 	"path/filepath"
 	"reflect"
 	"testing"
-	"time"
 
 	"devaraja-anu/decor-scrapper/internal/product"
 	"devaraja-anu/decor-scrapper/internal/site"
@@ -27,12 +25,12 @@ func TestNestasia_Metadata(t *testing.T) {
 	}
 
 	cats := client.Categories()
-	if len(cats) != 3 {
-		t.Fatalf("expected 3 categories, got %d", len(cats))
+	if len(cats) != 6 {
+		t.Fatalf("expected 6 categories, got %d", len(cats))
 	}
 
-	expectedSlugs := []string{"rugs", "wall-decor", "lamps-lighting"}
-	expectedNames := []string{"rugs", "wall_decor", "lighting"}
+	expectedSlugs := []string{"rugs", "lamps-lighting", "wall-decor", "curtains", "planters", "storage-organizers"}
+	expectedNames := []string{"rugs", "lighting", "artwork_paintings", "curtains", "plants_planters", "storage_shelving"}
 
 	for i, c := range cats {
 		if c.Slug != expectedSlugs[i] {
@@ -400,54 +398,17 @@ func TestNestasia_StructuredStyles_Extraction(t *testing.T) {
 				nestasia.WithHTTPClient(server.Client()),
 			)
 
+			prod, err := client.FetchProduct(context.Background(), product.ProductRef{
+				URL:      server.URL + "/products/item",
+				Category: "decor",
+			})
+			if err != nil {
+				t.Fatalf("unexpected fetch error: %v", err)
+			}
+
 			if !reflect.DeepEqual(prod.Styles, tc.expected) {
 				t.Errorf("styles mismatch for %s: expected %v, got %v", tc.name, tc.expected, prod.Styles)
 			}
 		})
-	}
-}
-
-func TestLive_VerifyProductsJSON(t *testing.T) {
-	client := &http.Client{Timeout: 10 * time.Second}
-
-	endpoints := []string{
-		"https://nestasia.in/products.json?limit=5",
-		"https://nestasia.in/collections/wall-decor/products.json?limit=5",
-		"https://nestasia.in/collections/dining/products.json?limit=5",
-		"https://nestasia.in/collections/rugs/products.json?limit=5",
-	}
-
-	for _, u := range endpoints {
-		req, _ := http.NewRequest(http.MethodGet, u, nil)
-		req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36")
-		req.Header.Set("Accept", "application/json")
-
-		resp, err := client.Do(req)
-		if err != nil {
-			t.Errorf("URL %s error: %v", u, err)
-			continue
-		}
-
-		var payload struct {
-			Products []struct {
-				ID     int64  `json:"id"`
-				Title  string `json:"title"`
-				Handle string `json:"handle"`
-			} `json:"products"`
-		}
-
-		err = json.NewDecoder(resp.Body).Decode(&payload)
-		resp.Body.Close()
-
-		t.Logf("URL: %s", u)
-		t.Logf("  Status: %d (%s)", resp.StatusCode, resp.Status)
-		t.Logf("  Content-Type: %s", resp.Header.Get("Content-Type"))
-		t.Logf("  Products Returned: %d", len(payload.Products))
-		for i, p := range payload.Products {
-			if i >= 2 {
-				break
-			}
-			t.Logf("    - [%d] %s (%s)", p.ID, p.Title, p.Handle)
-		}
 	}
 }

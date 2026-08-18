@@ -24,12 +24,28 @@ func TestPepperfry_Metadata(t *testing.T) {
 	}
 
 	cats := client.Categories()
-	if len(cats) != 3 {
-		t.Fatalf("expected 3 categories, got %d", len(cats))
+	if len(cats) != 7 {
+		t.Fatalf("expected 7 categories, got %d", len(cats))
 	}
 
-	expectedSlugs := []string{"category/3-seater-sofas", "category/coffee-tables", "category/dining-chairs"}
-	expectedNames := []string{"sofas", "coffee_tables", "dining_chairs"}
+	expectedSlugs := []string{
+		"category/3-seater-sofas",
+		"category/coffee-tables",
+		"category/dining-chairs",
+		"category/queen-size-beds",
+		"category/bedside-tables",
+		"category/book-shelves",
+		"category/lamps-lighting",
+	}
+	expectedNames := []string{
+		"sofas",
+		"coffee_tables",
+		"dining_chairs",
+		"beds",
+		"side_tables",
+		"storage_shelving",
+		"lighting",
+	}
 
 	for i, c := range cats {
 		if c.Slug != expectedSlugs[i] {

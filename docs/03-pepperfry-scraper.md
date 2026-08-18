@@ -5,14 +5,18 @@ This milestone implements the [`site.Site`](file:///C:/Programming/Projects/deco
 
 ---
 
-## 1. 3 Core Furniture Categories
-Pepperfry supplies the foundational furniture layer for the room:
+## 1. Core Furniture & Fixture Categories
+Pepperfry supplies the foundational furniture and large fixture layer for the room:
 
 | Category Slug | Normalized Name | Spatial Role |
 |---|---|---|
 | `category/3-seater-sofas` | `sofas` | Primary living room seating anchor |
 | `category/coffee-tables` | `coffee_tables` | Central living room surface & accent |
 | `category/dining-chairs` | `dining_chairs` | Dining seating and accent chairs |
+| `category/queen-size-beds` | `beds` | Bedroom anchor and focal piece |
+| `category/bedside-tables` | `side_tables` | Bedside and sofa accent tables |
+| `category/book-shelves` | `storage_shelving` | Open shelving and room organization |
+| `category/lamps-lighting` | `lighting` | Floor and table lamps for ambient mood |
 
 ---
 

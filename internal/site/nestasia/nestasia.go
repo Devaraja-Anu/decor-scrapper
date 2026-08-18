@@ -75,8 +75,11 @@ func (n *Nestasia) Name() string {
 func (n *Nestasia) Categories() []product.Category {
 	return []product.Category{
 		{Slug: "rugs", Name: "rugs"},
-		{Slug: "wall-decor", Name: "wall_decor"},
 		{Slug: "lamps-lighting", Name: "lighting"},
+		{Slug: "wall-decor", Name: "artwork_paintings"},
+		{Slug: "curtains", Name: "curtains"},
+		{Slug: "planters", Name: "plants_planters"},
+		{Slug: "storage-organizers", Name: "storage_shelving"},
 	}
 }
 
